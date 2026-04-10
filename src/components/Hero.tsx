@@ -23,7 +23,7 @@ const Hero = () => {
           <img
             src={janeLogo}
             alt="Jane Jaqué Clairvoyance"
-            className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full shadow-lg shadow-accent/20 border-2 border-accent/30 object-cover"
+            className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-2xl shadow-lg shadow-accent/20 border-2 border-accent/30 object-cover"
           />
         </div>
         <p className="text-gold-light font-body text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in opacity-0">
