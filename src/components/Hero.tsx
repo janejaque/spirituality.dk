@@ -24,29 +24,29 @@ const Hero = () => {
           <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-light text-primary-foreground leading-tight mb-4 animate-fade-in opacity-0">
             Clairvoyant vejledning
           </h1>
-          <p className="font-heading text-xl md:text-2xl text-gold-light italic mb-6 animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
+          <p className="font-heading text-3xl md:text-5xl text-gold-light italic mb-6 animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
             Jeg ser dig
           </p>
           <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-10 animate-fade-up opacity-0 leading-relaxed" style={{ animationDelay: "0.4s" }}>
             Mit navn er Jane Jaqué og jeg er clairvoyant. Jeg giver dig redskaber til at komme trygt videre i dit liv med omsorgsfuld vejledning og støtte.
           </p>
-          <div className="animate-fade-up opacity-0" style={{ animationDelay: "0.6s" }}>
-            <a
-              href="#kontakt"
-              className="inline-block font-body text-sm font-medium bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:bg-gold-dark transition-colors duration-300 tracking-wide uppercase"
-            >
-              Book en konsultation
-            </a>
-          </div>
         </div>
 
-        {/* Logo - bottom left */}
-        <div className="flex justify-start animate-fade-in opacity-0" style={{ animationDelay: "0.8s" }}>
-          <img
-            src={janeLogo}
-            alt="Jane Jaqué Clairvoyance"
-            className="w-24 h-24 md:w-32 md:h-32 rounded-2xl shadow-lg shadow-accent/20 border-2 border-accent/30 object-cover"
-          />
+        {/* Logo + Button combined element */}
+        <div className="flex justify-center animate-fade-up opacity-0" style={{ animationDelay: "0.6s" }}>
+          <a
+            href="#kontakt"
+            className="flex items-center gap-0 group"
+          >
+            <img
+              src={janeLogo}
+              alt="Jane Jaqué Clairvoyance"
+              className="w-16 h-16 md:w-20 md:h-20 rounded-l-2xl border-2 border-accent/30 border-r-0 object-cover"
+            />
+            <span className="font-body text-sm font-medium bg-accent text-accent-foreground px-8 py-5 md:py-6 rounded-r-2xl border-2 border-accent border-l-0 group-hover:bg-gold-dark transition-colors duration-300 tracking-wide uppercase">
+              Book en konsultation
+            </span>
+          </a>
         </div>
       </div>
 
