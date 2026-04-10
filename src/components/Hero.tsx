@@ -18,33 +18,34 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
-        <div className="animate-fade-in opacity-0 mb-8">
+      <div className="relative z-10 px-4 max-w-4xl mx-auto w-full">
+        <div className="text-center mb-10">
+          <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-light text-primary-foreground leading-tight mb-4 animate-fade-in opacity-0">
+            Clairvoyant vejledning
+          </h1>
+          <p className="font-heading text-xl md:text-2xl text-gold-light italic mb-6 animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
+            Jeg ser dig
+          </p>
+          <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-10 animate-fade-up opacity-0 leading-relaxed" style={{ animationDelay: "0.4s" }}>
+            Mit navn er Jane Jaqué og jeg er clairvoyant. Jeg giver dig redskaber til at komme trygt videre i dit liv med omsorgsfuld vejledning og støtte.
+          </p>
+          <div className="animate-fade-up opacity-0" style={{ animationDelay: "0.6s" }}>
+            <a
+              href="#kontakt"
+              className="inline-block font-body text-sm font-medium bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:bg-gold-dark transition-colors duration-300 tracking-wide uppercase"
+            >
+              Book en konsultation
+            </a>
+          </div>
+        </div>
+
+        {/* Logo - bottom left */}
+        <div className="flex justify-start animate-fade-in opacity-0" style={{ animationDelay: "0.8s" }}>
           <img
             src={janeLogo}
             alt="Jane Jaqué Clairvoyance"
-            className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-2xl shadow-lg shadow-accent/20 border-2 border-accent/30 object-cover"
+            className="w-24 h-24 md:w-32 md:h-32 rounded-2xl shadow-lg shadow-accent/20 border-2 border-accent/30 object-cover"
           />
-        </div>
-        <p className="text-gold-light font-body text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in opacity-0">
-          Clairvoyant vejledning
-        </p>
-        <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-light text-primary-foreground leading-tight mb-6 animate-fade-up opacity-0">
-          Jeg ser dig
-        </h1>
-        <p className="font-heading text-xl md:text-2xl text-gold-light italic mb-8 animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
-          Ro, retning og afklaring
-        </p>
-        <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-10 animate-fade-up opacity-0 leading-relaxed" style={{ animationDelay: "0.4s" }}>
-          Mit navn er Jane Jaqué og jeg er clairvoyant. Jeg giver dig redskaber til at komme trygt videre i dit liv med omsorgsfuld vejledning og støtte.
-        </p>
-        <div className="animate-fade-up opacity-0" style={{ animationDelay: "0.6s" }}>
-          <a
-            href="#kontakt"
-            className="inline-block font-body text-sm font-medium bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:bg-gold-dark transition-colors duration-300 tracking-wide uppercase"
-          >
-            Book en konsultation
-          </a>
         </div>
       </div>
 
