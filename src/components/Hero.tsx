@@ -13,9 +13,9 @@ const Hero = () => {
           width={1920}
           height={1080}
         />
-        <div className="absolute inset-0 bg-gradient-mystical opacity-90" />
-        <div className="absolute inset-0 bg-primary/50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-mystical opacity-85" />
+        <div className="absolute inset-0 bg-primary/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
       </div>
 
       {/* Content */}
@@ -43,7 +43,7 @@ const Hero = () => {
               alt="Jane Jaqué Clairvoyance"
               className="w-16 h-16 md:w-20 md:h-20 object-cover"
             />
-            <span className="flex items-center font-body text-sm font-medium bg-accent text-accent-foreground px-8 group-hover:bg-gold-dark transition-colors duration-300 tracking-wide uppercase">
+            <span className="flex items-center font-body text-sm font-medium bg-[hsl(40,60%,85%)] text-primary px-8 group-hover:bg-[hsl(40,55%,75%)] transition-colors duration-300 tracking-wide uppercase">
               Book en konsultation
             </span>
           </a>
