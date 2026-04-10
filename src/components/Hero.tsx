@@ -1,4 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
+import janeLogo from "@/assets/jane-logo.jpg";
 
 const Hero = () => {
   return (
@@ -18,9 +19,14 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
+        <div className="animate-fade-in opacity-0 mb-8">
+          <img
+            src={janeLogo}
+            alt="Jane Jaqué Clairvoyance"
+            className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full shadow-lg shadow-accent/20 border-2 border-accent/30 object-cover"
+          />
+        </div>
         <p className="text-gold-light font-body text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in opacity-0">
-          Clairvoyant vejledning
-        </p>
         <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-light text-primary-foreground leading-tight mb-6 animate-fade-up opacity-0">
           Jeg ser dig
         </h1>
