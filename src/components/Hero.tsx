@@ -13,9 +13,9 @@ const Hero = () => {
           width={1920}
           height={1080}
         />
-        <div className="absolute inset-0 bg-gradient-mystical opacity-85" />
-        <div className="absolute inset-0 bg-primary/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-mystical opacity-90" />
+        <div className="absolute inset-0 bg-primary/50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
       </div>
 
       {/* Content */}
@@ -36,14 +36,14 @@ const Hero = () => {
         <div className="flex justify-center animate-fade-up opacity-0" style={{ animationDelay: "0.6s" }}>
           <a
             href="#kontakt"
-            className="flex items-center gap-0 group"
+            className="inline-flex items-stretch group rounded-2xl overflow-hidden shadow-lg shadow-accent/20 border-2 border-accent/30 hover:border-accent/50 transition-all duration-300"
           >
             <img
               src={janeLogo}
               alt="Jane Jaqué Clairvoyance"
-              className="w-16 h-16 md:w-20 md:h-20 rounded-l-2xl border-2 border-accent/30 border-r-0 object-cover"
+              className="w-16 h-16 md:w-20 md:h-20 object-cover"
             />
-            <span className="font-body text-sm font-medium bg-accent text-accent-foreground px-8 py-5 md:py-6 rounded-r-2xl border-2 border-accent border-l-0 group-hover:bg-gold-dark transition-colors duration-300 tracking-wide uppercase">
+            <span className="flex items-center font-body text-sm font-medium bg-accent text-accent-foreground px-8 group-hover:bg-gold-dark transition-colors duration-300 tracking-wide uppercase">
               Book en konsultation
             </span>
           </a>
