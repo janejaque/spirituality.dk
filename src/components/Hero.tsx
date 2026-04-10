@@ -24,11 +24,11 @@ const Hero = () => {
           <h1 className="font-heading text-5xl md:text-7xl font-light text-primary-foreground leading-tight mb-4 animate-fade-in opacity-0 lg:text-7xl">
             Clairvoyant vejledning
           </h1>
-          <p className="font-heading text-3xl md:text-5xl text-gold-light italic mb-6 animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
+          <p className="font-heading text-3xl text-gold-light italic mb-6 animate-fade-up opacity-0 md:text-8xl" style={{ animationDelay: "0.2s" }}>
             Jeg ser dig
           </p>
           <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-10 animate-fade-up opacity-0 leading-relaxed" style={{ animationDelay: "0.4s" }}>
-            Mit navn er Jane Jaqué og jeg er clairvoyant. Jeg giver dig redskaber til at komme trygt videre i dit liv med omsorgsfuld vejledning og støtte.
+            Jeg giver dig redskaber til at komme trygt videre i dit liv med omsorgsfuld clairvoyant vejledning og støtte.
           </p>
         </div>
 
