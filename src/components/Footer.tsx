@@ -28,7 +28,7 @@ const Footer = () => {
               TikTok
             </a>
             <a
-              href="https://www.instagram.com/jane_jaque"
+              href="https://www.instagram.com/jane_spirituality.dk?igsh=ZGl0amNqZDVvdXQ1&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="font-body text-xs text-primary-foreground/50 hover:text-gold-light transition-colors uppercase tracking-wider"
