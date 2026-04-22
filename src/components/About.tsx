@@ -19,7 +19,7 @@ const About = () => {
               <img
                 src={janePortrait2}
                 alt="Jane Jaqué"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover brightness-110 contrast-105"
                 loading="lazy"
               />
             </div>
