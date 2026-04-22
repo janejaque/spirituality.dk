@@ -34,6 +34,11 @@ const testimonials = [
     name: "Eileen B.",
     location: "Ølstykke",
   },
+  {
+    text: "Jeg er glad for, jeg valgte dig. Jeg kommer gerne igen!",
+    name: "Kira",
+    location: "Ballerup",
+  },
 ];
 
 const Testimonials = () => {
