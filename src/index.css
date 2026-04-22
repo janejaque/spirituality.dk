@@ -6,22 +6,22 @@
 
 @layer base {
   :root {
-    --background: 40 33% 96%;
+    --background: 36 38% 92%;
     --foreground: 220 30% 18%;
 
-    --card: 40 30% 98%;
+    --card: 36 34% 95%;
     --card-foreground: 220 30% 18%;
 
-    --popover: 40 30% 98%;
+    --popover: 36 34% 95%;
     --popover-foreground: 220 30% 18%;
 
     --primary: 220 45% 25%;
     --primary-foreground: 40 30% 96%;
 
-    --secondary: 40 40% 90%;
+    --secondary: 35 42% 86%;
     --secondary-foreground: 220 30% 18%;
 
-    --muted: 40 20% 92%;
+    --muted: 35 24% 89%;
     --muted-foreground: 220 15% 45%;
 
     --accent: 38 70% 55%;
@@ -30,8 +30,8 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 40 25% 85%;
-    --input: 40 25% 85%;
+    --border: 35 24% 82%;
+    --input: 35 24% 82%;
     --ring: 38 70% 55%;
 
     --radius: 0.75rem;
@@ -39,8 +39,8 @@
     --gold: 38 70% 55%;
     --gold-light: 40 60% 75%;
     --gold-dark: 35 65% 40%;
-    --cream: 40 33% 96%;
-    --cream-dark: 40 25% 88%;
+    --cream: 36 38% 92%;
+    --cream-dark: 34 28% 84%;
     --navy: 220 45% 25%;
     --navy-light: 220 35% 40%;
 
@@ -82,7 +82,7 @@
   }
 
   .bg-gradient-warm {
-    background: linear-gradient(180deg, hsl(40 33% 96%) 0%, hsl(40 25% 88%) 100%);
+    background: linear-gradient(180deg, hsl(36 38% 92%) 0%, hsl(34 28% 84%) 100%);
   }
 
   .shimmer {
