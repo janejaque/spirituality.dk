@@ -9,12 +9,12 @@ const Hero = () => {
         <img
           src={heroBg}
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover brightness-110 contrast-110 saturate-105"
           width={1920}
           height={1080}
         />
-        <div className="absolute inset-0 bg-gradient-mystical opacity-85" />
-        <div className="absolute inset-0 bg-primary/40" />
+        <div className="absolute inset-0 bg-gradient-mystical opacity-75" />
+        <div className="absolute inset-0 bg-primary/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
       </div>
 
