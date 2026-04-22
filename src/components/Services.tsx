@@ -1,7 +1,9 @@
+import konsultationRum from "@/assets/konsultation-rum.jpeg";
+
 const services = [
   {
     title: "Clairvoyantvejledning",
-    desc: "I København eller online. Jeg stiller ind på dig og giver dig budskaber og redskaber til et bedre liv.",
+    desc: "Jeg tilbyder clairvoyant vejledning. Jeg ser dig og det du står i lige nu. Du er velkommen til at medbringe dine spørgsmål, så du kan få svar på det, du tumler med lige nu. Så du kan gå trygt ud i livet igen med mere klarhed. Konsultationer tilbydes i rolige omgivelser ved personligt fremmøde i København Sv. eller online via messenger, hvis du befinder dig længere væk.",
     duration: "45 min",
     price: "499 kr.",
     icon: "✦",
@@ -14,32 +16,32 @@ const services = [
     icon: "❋",
   },
   {
-    title: "Dybdegående forældre-barn",
-    desc: "Jeg stiller ind på barnet via forældre — en dybere session med udvidet tid.",
-    duration: "60 min",
-    price: "600 kr.",
-    icon: "✧",
-  },
-  {
     title: "Afdødekontakt",
-    desc: "Kontakt med afdøde kære i et trygt og respektfuldt rum.",
-    duration: "45 min",
+    desc: "Som clairvoyant stiller jeg ind på den afdøde, du ønsker at komme i kontakt med. Jeg skaber et trygt og respektfuldt rum for mødet og dialog. Du er meget velkommen til at medbringe dine egne spørgsmål. Du bedes medbringe en genstand og et foto (i en kuvert), som jeg må holde for at skabe kontakt til vedkommende. Jeg videreformidler afdødes budskab til dig.",
+    duration: "",
     price: "499 kr.",
     icon: "☽",
   },
   {
     title: "Chakra-clairvoyance",
-    desc: "Clairvoyance med afsæt i dine chakraer for dybere selvindsigt.",
+    desc: "Ved en chakra-clairvoyance stilles der ind på dine chakraer i kroppen. Jeg stiller ind på hvordan der kan arbejdes med at skabe mere balance i krop og sjæl. Lettere healing og vejrtrækningsøvelser kan forekomme.",
     duration: "45 min",
     price: "499 kr.",
     icon: "◎",
   },
   {
     title: "Karmasitting",
-    desc: "Jeg kigger på dine tidligere liv, der påvirker dine nuværende udfordringer.",
+    desc: "Ved en karmasitting stiller jeg clairvoyant ind på episoder i dine tidligere liv. Med en karmasitting kan du få flashbask til episoder, der tidligere har defineret dit liv og som påvirker dig i dag. Det kan være en meget dybegående og indsigtsfuld oplevelse.",
     duration: "45 min",
     price: "499 kr.",
     icon: "∞",
+  },
+  {
+    title: "Venindeaften / polterabend / foredrag",
+    desc: "Jeg afholder også spirituelle arrangementer og foredrag for mindre grupper. Kontakt mig gerne, så vi kan aftale indhold og pris.",
+    duration: "",
+    price: "Kontakt",
+    icon: "✺",
   },
 ];
 
@@ -71,9 +73,13 @@ const Services = () => {
                 {s.desc}
               </p>
               <div className="flex items-center justify-between pt-4 border-t border-border">
-                <span className="font-body text-xs text-muted-foreground tracking-wide">
-                  {s.duration}
-                </span>
+                {s.duration ? (
+                  <span className="font-body text-xs text-muted-foreground tracking-wide">
+                    {s.duration}
+                  </span>
+                ) : (
+                  <span />
+                )}
                 <span className="font-heading text-lg font-semibold text-accent">
                   {s.price}
                 </span>
@@ -82,13 +88,15 @@ const Services = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <p className="font-body text-muted-foreground mb-2">
-            Venindeaften eller foredrag om det spirituelle?
-          </p>
-          <p className="font-body text-sm text-accent">
-            Kontakt mig for pris og planlægning
-          </p>
+        <div className="max-w-3xl mx-auto mt-16">
+          <div className="overflow-hidden rounded-xl shadow-lg border border-border">
+            <img
+              src={konsultationRum}
+              alt="Roligt konsultationsrum med lænestol, levende lys og blomster"
+              loading="lazy"
+              className="w-full h-auto object-cover"
+            />
+          </div>
         </div>
       </div>
     </section>
