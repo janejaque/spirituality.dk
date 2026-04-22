@@ -1,7 +1,7 @@
 const whyItems = [
   {
     title: "Personlig opmærksomhed",
-    text: "Du har min fulde opmærksomhed i en dedikeret konsultation. De clairvoyante budskaber er specifikt rettet til at hjælpe dig.",
+    text: "Du har min fulde opmærksomhed i en dedikeret konsultation. De clairvoyante budskaber er specifikt rettet til at hjælpe dig. Du er meget velkommen til at medbringe dine egne spørgsmål eller livstemaer, så ser vi sammen på dem.",
   },
   {
     title: "Tillid i et fortroligt rum",
@@ -9,7 +9,7 @@ const whyItems = [
   },
   {
     title: "Etik under clairvoyancen",
-    text: "Jeg forudser ikke død eller sygdom. Fokus er på konstruktive budskaber. Jeg har tavshedspligt og værner om respekt.",
+    text: "Jeg forudser ikke død eller sygdom. Fokus er på konstruktive budskaber. Jeg har tavshedspligt og jeg værner om fortroligheden i samtalen.",
   },
 ];
 
@@ -26,7 +26,7 @@ const WhyMe = () => {
           </h2>
           <div className="w-16 h-0.5 bg-accent mx-auto mb-8" />
           <p className="font-body text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring i at arbejde med menneskelige relationer. Min akademiske tilgang gør mig til en kritisk analytiker, der hjælper dig med at se nye vinkler og nuancer.
+            Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring i at arbejde med menneskelige relationer. Min akademiske tilgang gør mig til en kritisk analytiker, der hjælper dig med at se nye vinkler og nuancer. Jeg er ærlig men omsorgsfuld.
           </p>
         </div>
 
