@@ -21,10 +21,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 px-4 max-w-4xl mx-auto w-full">
         <div className="text-center mb-10">
-          <h1 className="font-heading text-5xl md:text-7xl font-light text-primary-foreground leading-tight mb-4 animate-fade-in opacity-0 lg:text-7xl">
+          <h1 className="font-heading text-4xl md:text-6xl font-light text-primary-foreground leading-tight mb-4 animate-fade-in opacity-0 lg:text-6xl">
             Clairvoyant vejledning
           </h1>
-          <p className="font-heading text-3xl text-gold-light italic mb-6 animate-fade-up opacity-0 md:text-8xl" style={{ animationDelay: "0.2s" }}>
+          <p className="font-heading text-2xl text-gold-light italic mb-6 animate-fade-up opacity-0 md:text-6xl" style={{ animationDelay: "0.2s" }}>
             Jeg ser dig
           </p>
           <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-10 animate-fade-up opacity-0 leading-relaxed" style={{ animationDelay: "0.4s" }}>
