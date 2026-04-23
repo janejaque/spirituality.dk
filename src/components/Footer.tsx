@@ -11,10 +11,6 @@ const Footer = () => {
           </h3>
 
           <div className="flex flex-col md:flex-row gap-6 mb-8 text-sm font-body text-primary-foreground/60">
-            <a href="mailto:mail@janejaque.dk" className="hover:text-gold-light transition-colors">
-              mail@janejaque.dk
-            </a>
-            <span className="hidden md:inline text-primary-foreground/20">|</span>
             <span>København Sv. eller online</span>
           </div>
 
@@ -24,7 +20,7 @@ const Footer = () => {
                 href="https://www.tiktok.com/@janej.clairvoyant"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex min-w-36 items-center justify-center rounded-md border border-primary-foreground/15 bg-primary-foreground/10 px-6 py-3 font-body text-sm text-primary-foreground transition-colors hover:border-gold-light/50 hover:bg-primary-foreground/15 hover:text-gold-light"
+                className="inline-flex min-w-36 items-center justify-center rounded-md border border-gold-light/40 bg-primary-foreground/20 px-6 py-3 font-body text-sm text-primary-foreground transition-colors hover:border-gold-light/60 hover:bg-primary-foreground/30 hover:text-gold-light"
               >
                 TikTok
               </a>
@@ -32,7 +28,7 @@ const Footer = () => {
                 href="https://www.instagram.com/jane_spirituality.dk?igsh=ZGl0amNqZDVvdXQ1&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex min-w-36 items-center justify-center rounded-md border border-primary-foreground/15 bg-primary-foreground/10 px-6 py-3 font-body text-sm text-primary-foreground transition-colors hover:border-gold-light/50 hover:bg-primary-foreground/15 hover:text-gold-light"
+                className="inline-flex min-w-36 items-center justify-center rounded-md border border-gold-light/40 bg-primary-foreground/20 px-6 py-3 font-body text-sm text-primary-foreground transition-colors hover:border-gold-light/60 hover:bg-primary-foreground/30 hover:text-gold-light"
               >
                 Instagram
               </a>
@@ -42,6 +38,12 @@ const Footer = () => {
               Følg med på min TikTok, hvor du kan få inspiration til et liv med hverdagsnær spiritualitet,
               giveaways og øvelser der forbinder dig med din egen sjæls behov - mange hilsner Jane.
             </p>
+
+            <div className="flex items-center gap-3 text-gold-light/80" aria-hidden="true">
+              <span className="text-lg">☽</span>
+              <span className="text-sm">✧</span>
+              <span className="text-lg">☼</span>
+            </div>
           </div>
 
           <div className="w-full max-w-xs h-px bg-primary-foreground/10 mb-8" />
