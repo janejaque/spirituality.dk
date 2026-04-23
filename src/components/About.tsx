@@ -3,7 +3,7 @@ import janePortrait2 from "@/assets/jane-portrait2.jpg";
 
 const About = () => {
   return (
-    <section id="om-mig" className="py-24 bg-background">
+    <section id="om-mig" className="py-24 bg-gradient-rose-warm">
       <div className="container mx-auto px-4 max-w-4xl">
         <p className="font-body text-sm tracking-[0.2em] uppercase text-accent mb-3">
           Om mig

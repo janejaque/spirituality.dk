@@ -85,6 +85,10 @@
     background: linear-gradient(180deg, hsl(36 38% 92%) 0%, hsl(34 28% 84%) 100%);
   }
 
+  .bg-gradient-rose-warm {
+    background: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(18 34% 85%) 52%, hsl(8 28% 83%) 100%);
+  }
+
   .shimmer {
     position: relative;
     overflow: hidden;
