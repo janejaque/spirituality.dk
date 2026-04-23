@@ -25,8 +25,11 @@ const Contact = () => {
               Book en konsultation
             </h2>
             <div className="w-16 h-0.5 bg-accent mx-auto mb-6" />
-            <p className="font-body text-muted-foreground">
-              Jeg vender straks tilbage med en tid.
+            <p className="font-body text-muted-foreground flex items-center justify-center gap-2 max-w-xl mx-auto">
+              <span className="text-accent text-lg" aria-hidden="true">✧</span>
+              <span>
+                Har du spørgsmål til konsultationer eller ønsker du at foretage en booking af konsultation, skriv til mig her. Så vender jeg straks tilbage - Jane.
+              </span>
             </p>
           </div>
 
