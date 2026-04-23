@@ -59,7 +59,7 @@ const Testimonials = () => {
           {testimonials.map((t) => (
             <div
               key={t.name}
-              className="bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 rounded-xl p-8"
+              className="bg-navy-light/20 backdrop-blur-sm border border-navy-light/30 rounded-xl p-8"
             >
               <div className="text-accent text-2xl mb-4">"</div>
               <p className="font-body text-sm text-primary-foreground/80 leading-relaxed mb-6 italic">
