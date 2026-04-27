@@ -20,10 +20,10 @@ const WhyMe = () => {
     <section className="relative py-24 bg-background overflow-hidden">
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-cover bg-center scale-110 blur-2xl opacity-25"
+        className="absolute inset-0 bg-cover bg-center scale-110 blur-xl opacity-60"
         style={{ backgroundImage: `url(${whyMeBg})` }}
       />
-      <div className="absolute inset-0 bg-background/70" aria-hidden="true" />
+      <div className="absolute inset-0 bg-background/40" aria-hidden="true" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <p className="font-body text-sm tracking-[0.2em] uppercase text-accent mb-3">
