@@ -34,7 +34,7 @@ const Footer = () => {
               </a>
             </div>
 
-            <p className="font-body text-base md:text-lg font-medium leading-relaxed text-primary-foreground">
+            <p className="font-body text-lg md:text-xl font-medium leading-relaxed text-primary-foreground">
               Følg med på min <span className="text-gold-light font-semibold">TikTok</span>, hvor du kan få inspiration til et liv med hverdagsnær spiritualitet,
               giveaways og øvelser der forbinder dig med din egen sjæls behov - <span className="italic text-gold-light">mange hilsner Jane</span>.
             </p>
