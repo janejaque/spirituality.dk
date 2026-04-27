@@ -13,18 +13,12 @@ const whyItems = [
   },
 ];
 
-import whyMeBg from "@/assets/why-me-jane.jpeg";
+import janePortrait from "@/assets/why-me-jane.jpeg";
 
 const WhyMe = () => {
   return (
-    <section className="relative py-24 bg-background overflow-hidden">
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 bg-cover bg-center scale-110 blur-xl opacity-60"
-        style={{ backgroundImage: `url(${whyMeBg})` }}
-      />
-      <div className="absolute inset-0 bg-background/40" aria-hidden="true" />
-      <div className="container mx-auto px-4 relative z-10">
+    <section className="py-24 bg-background">
+      <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="font-body text-sm tracking-[0.2em] uppercase text-accent mb-3">
             Værd at vide
@@ -33,9 +27,17 @@ const WhyMe = () => {
             Hvorfor vælge mig?
           </h2>
           <div className="w-16 h-0.5 bg-accent mx-auto mb-8" />
-          <p className="font-body text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring i at arbejde med menneskelige relationer. Min akademiske tilgang gør mig til en kritisk analytiker, der hjælper dig med at se nye vinkler og nuancer. Jeg er ærlig men omsorgsfuld.
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl mx-auto">
+            <img
+              src={janePortrait}
+              alt="Portræt af Jane Jaqué"
+              loading="lazy"
+              className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg flex-shrink-0"
+            />
+            <p className="font-body text-muted-foreground leading-relaxed text-center md:text-left">
+              Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring i at arbejde med menneskelige relationer. Min akademiske tilgang gør mig til en kritisk analytiker, der hjælper dig med at se nye vinkler og nuancer. Jeg er ærlig men omsorgsfuld.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
