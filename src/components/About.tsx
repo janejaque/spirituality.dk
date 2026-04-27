@@ -14,7 +14,7 @@ const About = () => {
         <div className="w-16 h-0.5 bg-accent mb-8" />
 
         <div className="font-body text-muted-foreground leading-relaxed">
-          <div className="float-right ml-8 mb-6 w-48 md:w-64">
+          <div className="float-right ml-8 mb-6 w-64 md:w-80">
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src={janePortrait2}
