@@ -36,7 +36,10 @@ const Footer = () => {
 
             <p className="font-body text-lg md:text-xl font-medium leading-relaxed text-primary-foreground">
               Følg med på min <span className="text-gold-light font-semibold">TikTok</span>, hvor du kan få inspiration til et liv med hverdagsnær spiritualitet,
-              giveaways og øvelser der forbinder dig med din egen sjæls behov - <span className="italic text-gold-light">mange hilsner Jane</span>.
+              giveaways og øvelser der forbinder dig med din egen sjæls behov.
+            </p>
+            <p className="font-body text-lg md:text-xl italic text-gold-light">
+              mange hilsner Jane
             </p>
 
             <div className="flex items-center gap-3 text-gold-light/80" aria-hidden="true">
