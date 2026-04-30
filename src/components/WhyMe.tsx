@@ -34,9 +34,17 @@ const WhyMe = () => {
               loading="lazy"
               className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg flex-shrink-0"
             />
-            <p className="font-body text-muted-foreground leading-relaxed text-center md:text-left">
-              Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring i at arbejde med menneskelige relationer. Min akademiske tilgang gør mig til en kritisk analytiker, der hjælper dig med at se nye vinkler og nuancer. Jeg er ærlig men omsorgsfuld.
-            </p>
+            <div className="font-body text-muted-foreground leading-relaxed text-center md:text-left space-y-4">
+              <p>
+                Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring i at arbejde med menneskelige relationer. Min tilgang til den spirituelle verden er lavpraktisk og jordnær. Jeg tror på, man skal nyde og leve et godt liv.
+              </p>
+              <p>
+                Et godt liv, hænger sammen med din sjæls behov. Det er dine indre behov, der giver din hverdag mening. Det betyder, at arbejde med sig selv, med henblik på at se på gamle handlemønstre, der ofte skal arbejdes målrettet med, for at skabe plads til den dit sande autentiske selv.
+              </p>
+              <p>
+                Mine klienter kommer fra hele Sjælland og øer og de er fra ca . 18 år og opefter. De søger vejledning og retning på livets store temaer. Det er hovedsageligt kvinder, men alle er velkomne. De kører gerne langt for et personligt møde hvor nærvær, ro og dialog er i fokus. Det er `dig tid` med fokus på dit indre.
+              </p>
+            </div>
           </div>
         </div>
 
