@@ -39,10 +39,16 @@ const WhyMe = () => {
                 Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring i at arbejde med menneskelige relationer. Min tilgang til den spirituelle verden er lavpraktisk og jordnær. Jeg tror på, man skal nyde og leve et godt liv.
               </p>
               <p>
-                Et godt liv, hænger sammen med din sjæls behov. Det er dine indre behov, der giver din hverdag mening. Det betyder, at arbejde med sig selv og sine relationer, med henblik på at se på gamle handlemønstre, der ofte skal arbejdes målrettet med, for at skabe plads til den dit sande autentiske selv.
+                Et godt liv hænger sammen med din sjæls behov. Det er dine indre behov, der giver din hverdag mening. Det indbefatter at arbejde med sig selv og sine relationer med henblik på at se på gamle handlemønstre, for at skabe plads til den dit autentiske selv.
               </p>
               <p>
-                Mine klienter kommer fra hele Sjælland og øerne. De er fra ca.18 år og opefter. Det er hovedsageligt kvinder, men alle er velkomne. De søger vejledning og retning på livets store temaer. De kører gerne langt for et personligt møde hvor nærvær, ro og dialog er i fokus. Det er `dig tid` med fokus på dit indre liv.
+                Mine klienter kommer fra hele Sjælland og øerne. De er fra ca.18 år og opefter. Det er hovedsageligt kvinder, men alle er velkomne. De søger vejledning og retning på livets store temaer.
+              </p>
+              <p>
+                De kører gerne langt for et personligt møde hvor nærvær, ro og dialog er i fokus. Det er `dig tid` med fokus på dit indre liv.
+              </p>
+              <p>
+                Hvornår giver du dig selv tid til at mærke dig selv?
               </p>
             </div>
           </div>
