@@ -29,10 +29,12 @@ const About = () => {
             Jeg har passeret de 50 år og har opbygget årtiers erfaring i at vejlede, støtte og rådgive børn, unge samt deres forældre. I mit arbejdsliv har jeg været pædagog, rådgiver, leder og jeg har arbejdet med forskning.
           </p>
           <p className="mb-6">
-            Jeg har et kritisk analytisk blik qua min akademiske uddannelse, og da jeg ved et tilfælde blev bekendt med mine clairvoyante evner, lærte jeg at træne dem med henblik på at se det enkelte menneske der, hvor det befinder sig lige nu.
+            Jeg har et kritisk analytisk blik qua min akademiske uddannelse Da jeg ved et tilfælde blev bekendt med mine clairvoyante evner, lærte jeg at træne dem med henblik på at se det enkelte menneske der, hvor det befinder sig lige nu.
           </p>
           <p>
             Jeg møder dig med åbenhed, ærlighed og omsorg. Efter en konsultation er det vigtigt for mig, at du går ud af døren med håb for fremtiden og gode lavpraktiske redskaber.
+
+
           </p>
           <p className="mb-6">
             Jeg opdagende mine clairvoyante evner ved et tilfælde. Troede bare, jeg var en rigtig god menneskekender. Nu har jeg lært at skelne imellem den lange relationelle viden og erfaring, jeg har gjort mig og mine stærke clairvoyante evner. De clairvoyante evner viser sig ved, de særlige kendetegn der gør hvert menneske sit helt eget i kraft af deres levede liv og de ønsker de har for fremtiden.
