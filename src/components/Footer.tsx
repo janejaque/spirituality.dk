@@ -51,9 +51,17 @@ const Footer = () => {
 
           <div className="w-full max-w-xs h-px bg-primary-foreground/10 mb-8" />
 
-          <p className="font-body text-xs text-primary-foreground/50 max-w-2xl mb-3">
-            <span className="font-semibold">Det med småt:</span> Ved afbud indenfor 12 timer eller udeblivelse, betales der fuld pris for konsultationen.
-          </p>
+          <div className="font-body text-xs text-primary-foreground/50 max-w-2xl mb-3 space-y-2">
+            <p>
+              <span className="font-semibold">Det med småt:</span> Ved afbud indenfor 12 timer eller udeblivelse, betales der fuld pris for konsultationen.
+            </p>
+            <p>
+              Er du forsinket, afsluttes konsultationen på det i forvejen aftalte tidspunkt.
+            </p>
+            <p>
+              Der er tre timers gratis parkering. Nærmeste S-togs station hedder Sydhavn, og nærmeste Metro station hedder Mozarts Plads.
+            </p>
+          </div>
 
           <p className="font-body text-xs text-primary-foreground/30">
             © {new Date().getFullYear()} Jane Jaqué. Alle rettigheder forbeholdes.
