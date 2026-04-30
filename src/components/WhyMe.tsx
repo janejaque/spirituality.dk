@@ -1,7 +1,7 @@
 const whyItems = [
   {
     title: "Personlig opmærksomhed",
-    text: "Du har min fulde opmærksomhed i en dedikeret konsultation. De clairvoyante budskaber er specifikt rettet til at hjælpe dig. Du er meget velkommen til at medbringe dine egne spørgsmål eller livstemaer, så ser vi sammen på dem.",
+    text: "I trygge omgivelser giver jeg dig råd og redskaber. Konsultationen kan foregå i Københavns Sydhavn i mit lille rolige klienthjørne. Her kan du sætte dig godt tilrette og sammen sætter vi fokus på det, du har på hjerte. ",
   },
   {
     title: "Tillid i et fortroligt rum",
