@@ -13,7 +13,7 @@ const services = [
     desc: "Clairvoyant vejledning med fokus på forældre-barn relationen og familiens dynamik. Clairvoyancen kombineres med tips og tricks fra mange års erfaring i at vejlede børnefamilier. Med små simple greb og justeringer, kan man opleve store forandringer til en bedre hverdag for hele familien.\n\n\nDu medbringer dit tema eller din udfordring og vi kigger på det sammen med henblik på at støtte jer bedst muligt.",
     duration: "45 min",
     price: "499 kr.",
-    icon: "🍼",
+    icon: "❋",
   },
   {
     title: "Afdødekontakt",
