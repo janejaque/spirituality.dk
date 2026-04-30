@@ -38,7 +38,7 @@ const services = [
   },
   {
     title: "Venindeaften / polterabend / foredrag",
-    desc: "Måske ved du ikke hvordan du skal gribe din spiritualitet an? Det kan være rart og hyggeligt, at blive introduceret til den spirituelle verden sammen med gode veninder. \n\n\nJeg holder afholder spirituelle arrangementer og foredrag for mindre grupper. Kontakt mig gerne, så vi kan aftale indhold og pris.\n\n\nEn arrangement kan indeholde orakel/engelekort med/uden clairvoyant budskab, En kortere clairvoyance for hver deltager (maks. 6 personer), en meditat",
+    desc: "Måske ved du ikke hvordan du skal gribe din spiritualitet an?\n\n\nDet kan være rart og hyggeligt, at blive introduceret til den spirituelle verden sammen med gode veninder. \nEt arrangement kan indeholde orakel/englekort med/uden clairvoyant budskab, En kortere clairvoyance for hver deltager (maks. 6 personer), en guidet meditation eller drømmerejse, et forløb med intuitiv maling/tegning eller et foredrag om den spirituelle verden og/eller den symboler. \n\n\nJeg holder afholder spirituelle arrangementer og foredrag for mindre grupper. Kontakt mig gerne, så vi kan aftale indhold og pris.\n\n",
     duration: "",
     price: "Kontakt",
     icon: "✺",
