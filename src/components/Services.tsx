@@ -31,7 +31,7 @@ const services = [
   },
   {
     title: "Karmasitting",
-    desc: "Ved en karmasitting stiller jeg clairvoyant ind på episoder i dine tidligere liv. Med en karmasitting kan du få flashbask til episoder, der tidligere har defineret dit liv og som påvirker dig i dag. Det kan være en meget dybegående og indsigtsfuld oplevelse.",
+    desc: "Ved en karmasitting stiller jeg clairvoyant ind på episoder i dine tidligere liv. Med en karmasitting kan du få flashbask til episoder, der tidligere har defineret dit liv og som påvirker dig i dag. Det kan være en meget dybegående og indsigtsfuld oplevelse. \n\n\nDette er særligt til dig, der føler du sidder fast i bestemte handlemønstre. Her kan karmasitting give en dybere indsigt i hvem du er og hvad du bærer med dig. \n\n\nKarmasitting er også et tilgang, der kan skabe en dybere forståelse for det spirituelle menneske du er, fordi mange liv har formet dig til den du er i dag. ",
     duration: "45 min",
     price: "499 kr.",
     icon: "∞",
