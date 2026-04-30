@@ -4,6 +4,7 @@ import logo from "@/assets/logo.png";
 const navLinks = [
   { label: "Om mig", href: "#om-mig" },
   { label: "Konsultationer", href: "#konsultationer" },
+  { label: "Hvorfor vælge mig", href: "#hvorfor-vaelge-mig" },
   { label: "Udtalelser", href: "#udtalelser" },
   { label: "Kontakt", href: "#kontakt" },
 ];
