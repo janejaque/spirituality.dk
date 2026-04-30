@@ -17,7 +17,7 @@ import janePortrait from "@/assets/why-me-jane.jpeg";
 
 const WhyMe = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="hvorfor-vaelge-mig" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="font-body text-sm tracking-[0.2em] uppercase text-accent mb-3">
