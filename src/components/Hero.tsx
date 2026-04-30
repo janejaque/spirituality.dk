@@ -28,7 +28,7 @@ const Hero = () => {
             Jeg ser dig
           </p>
           <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-10 animate-fade-up opacity-0 leading-relaxed" style={{ animationDelay: "0.4s" }}>
-            Jeg giver dig redskaber til at komme trygt videre i dit liv med omsorgsfuld clairvoyant vejledning og støtte.
+            Står du sted i dit liv, hvor du mangler vejledning og afklaring for at komme videre i dit liv? Livets store temaer såsom kærlighed, parforhold, børn, arbejde og uddannelse kan jeg hjælpe dig med. Jeg giver dig redskaber til at komme trygt videre i dit liv med omsorgsfuld clairvoyant vejledning og støtte.
           </p>
         </div>
 
