@@ -65,7 +65,32 @@ const Services = () => {
               key={s.title}
               className="group bg-card rounded-xl p-8 border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1"
             >
-              <span className="text-3xl text-accent mb-4 block">{s.icon}</span>
+              <div className="flex items-center justify-between mb-4">
+                <span className="text-3xl text-accent block">{s.icon}</span>
+                {s.title === "Chakra-clairvoyance" && (
+                  <div
+                    className="flex flex-col items-center gap-[3px]"
+                    aria-label="Chakra symbol med chakrafarver"
+                    title="De syv chakraer"
+                  >
+                    {[
+                      "#9b5de5", // Krone – violet
+                      "#4f46e5", // Tredje øje – indigo
+                      "#3b82f6", // Hals – blå
+                      "#22c55e", // Hjerte – grøn
+                      "#facc15", // Solar plexus – gul
+                      "#f97316", // Sakral – orange
+                      "#ef4444", // Rod – rød
+                    ].map((color) => (
+                      <span
+                        key={color}
+                        className="w-2.5 h-2.5 rounded-full shadow-sm"
+                        style={{ backgroundColor: color }}
+                      />
+                    ))}
+                  </div>
+                )}
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                 {s.title}
               </h3>
