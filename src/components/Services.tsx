@@ -94,7 +94,7 @@ const Services = () => {
               <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                 {s.title}
               </h3>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6">
+              <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
                 {s.desc}
               </p>
               <div className="flex items-center justify-between pt-4 border-t border-border">
