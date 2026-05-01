@@ -38,7 +38,7 @@ const services = [
   },
   {
     title: "Venindeaften / polterabend / foredrag",
-    desc: " -Et foredrag om den spirituelle verden, den historie og symboler. Viden og forståelse for hvad den spirituelle verden kan og hvorfor bruges der feks krystalkugler, tarotkort m.m.\n\nJeg holder afholder spirituelle arrangementer og foredrag for mindre grupper i København sv.. Afsæt gerne et par timer.\n\n\nKontakt mig gerne, så vi kan aftale indhold og pris.",
+    desc: "Måske ved du ikke hvordan du skal gribe din spiritualitet an? Det kan være rart og hyggeligt, at blive introduceret til den spirituelle verden sammen med gode veninder.\n\nEt arrangement kan indeholde:\n\n- Orakel-/englekort med eller uden clairvoyant budskab\n- En kortere clairvoyance for hver deltager (maks. 6 personer)\n- En guidet meditation eller drømmerejse\n- Et forløb med intuitiv maling/tegning\n- Et foredrag om den spirituelle verden, dens historie og symboler. Viden og forståelse for hvad den spirituelle verden kan, og hvorfor der fx bruges krystalkugler, tarotkort m.m.\n\nJeg afholder spirituelle arrangementer og foredrag for mindre grupper i København Sv. Afsæt gerne et par timer.\n\n\nKontakt mig gerne, så vi kan aftale indhold og pris.",
     duration: "ca. 2 timer, 5-7 personer (inkl. vand og lidt sødt)",
     price: "ca. 2000 kr.",
     icon: "✺",
