@@ -56,7 +56,10 @@ const WhyMe = () => {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {whyItems.map((item) => (
-            <div key={item.title} className="text-center">
+            <div
+              key={item.title}
+              className="text-center bg-card/60 border border-accent/20 rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300"
+            >
               <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-6">
                 <div className="w-2 h-2 rounded-full bg-accent" />
               </div>
