@@ -48,7 +48,7 @@ const WhyMe = () => {
                 De kører gerne langt for et personligt møde hvor nærvær, ro og dialog er i fokus. Det er `dig tid` med fokus på dit indre liv.
               </p>
               <p>
-                Hvornår giver du dig selv tid til at mærke dig selv?
+                Hvornår giver du dig tid til at lytte til dine egne \nbehov?
               </p>
             </div>
           </div>
