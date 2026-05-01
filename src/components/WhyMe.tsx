@@ -34,7 +34,7 @@ const WhyMe = () => {
               loading="lazy"
               className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg flex-shrink-0"
             />
-            <div className="font-body text-muted-foreground leading-relaxed text-center md:text-left space-y-4">
+            <div className="font-body text-muted-foreground leading-relaxed text-center space-y-4">
               <p>
                 Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring i at arbejde med menneskelige relationer. Min tilgang til den spirituelle verden er lavpraktisk og jordnær. Jeg tror på, man skal nyde og leve et godt liv.
               </p>
