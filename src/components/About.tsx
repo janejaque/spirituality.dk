@@ -31,7 +31,7 @@ const About = () => {
 Jeg har altid været drevet af at forstå de menneskelige relationer. Derfor har jeg bevæget mig både i praksis, i den akademisk analytiske verden og nu også den clairvoyante og intuitive verden. 
           </p>
           <p className="mb-6">
-            Jeg har et kritisk analytisk blik qua min akademiske uddannelse. Mine clairvoyante evner har jeg altid haft. Oprindeligt troede jeg, at jeg bare var i sand til at se det unikke i hvert menneske pga. min lange erfaring i at arbejde med mennesker. Nu kan jeg skelne mellem erfaring, viden og mine clairvoyante evner.
+            Jeg har et kritisk analytisk blik qua min akademiske uddannelse. Mine clairvoyante evner har jeg altid haft. Oprindeligt troede jeg, at jeg bare var i stand til at se det unikke i hvert menneske pga. min lange erfaring i at arbejde med mennesker. Nu kan jeg skelne mellem erfaring, viden og mine clairvoyante evner.
           </p>
           <p className="mb-8">
             Jeg møder dig med åbenhed, ærlighed og omsorg. Efter en konsultation er det vigtigt for mig, at du går ud af døren med håb for fremtiden og gode lavpraktiske redskaber.
