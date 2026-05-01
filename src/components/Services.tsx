@@ -39,8 +39,8 @@ const services = [
   {
     title: "Venindeaften / polterabend / foredrag",
     desc: " -Et foredrag om den spirituelle verden, den historie og symboler. Viden og forståelse for hvad den spirituelle verden kan og hvorfor bruges der feks krystalkugler, tarotkort m.m.\n\nJeg holder afholder spirituelle arrangementer og foredrag for mindre grupper i København sv.. Afsæt gerne et par timer.\n\n\nKontakt mig gerne, så vi kan aftale indhold og pris.",
-    duration: "",
-    price: "Kontakt",
+    duration: "ca. 2 timer, 5-7 personer (inkl. vand og lidt sødt)",
+    price: "ca. 2000 kr.",
     icon: "✺",
   },
 ];
