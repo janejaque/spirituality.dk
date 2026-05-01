@@ -18,9 +18,6 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
         <a href="#" className="flex items-center gap-3">
           <img src={logo} alt="Jane Jaqué logo" className="w-10 h-10" />
-          <span className="font-heading text-xl font-semibold text-primary tracking-wide">
-            Jane Jaqué
-          </span>
         </a>
 
         {/* Desktop */}
