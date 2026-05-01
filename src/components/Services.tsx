@@ -24,7 +24,7 @@ const services = [
   },
   {
     title: "Chakra-clairvoyance",
-    desc: "Ved en chakra-clairvoyance stilles der ind på dine chakraer i kroppen. \n\n\nJeg stiller ind på hvordan der kan arbejdes med at skabe mere balance i krop og sjæl. \n\n\nLettere healing og vejrtrækningsøvelser kan forekomme.",
+    desc: "Ved en chakra-clairvoyance stilles der ind på dine chakraer i kroppen.\n\n\nJeg stiller ind på hvordan der kan arbejdes med at skabe mere balance i krop og sjæl. Her er særligt fokus på velvære både psykisk og fysisk. \n\n\nLettere healing, aromaterapi og vejrtrækningsøvelser kan forekomme.",
     duration: "45 min",
     price: "499 kr.",
     icon: "◎",
