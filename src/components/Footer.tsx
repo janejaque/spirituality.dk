@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col items-center gap-5 mb-10 max-w-2xl">
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div id="some" className="flex flex-col sm:flex-row gap-4 scroll-mt-24">
               <a
                 href="https://www.tiktok.com/@janej.clairvoyant"
                 target="_blank"
