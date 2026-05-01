@@ -3,7 +3,7 @@ import konsultationRum from "@/assets/konsultation-rum.jpeg";
 const services = [
   {
     title: "Clairvoyantvejledning",
-    desc: "Jeg tilbyder clairvoyant vejledning. Jeg ser dig og det du står i lige nu. Du er velkommen til at medbringe dine spørgsmål, så du kan få svar på det, du tumler med lige nu. Så du kan gå trygt ud i livet igen med mere klarhed. Konsultationer tilbydes i rolige omgivelser ved personligt fremmøde i København Sv. eller online via messenger, hvis du befinder dig længere væk.",
+    desc: "Jeg tilbyder clairvoyant vejledning. Jeg ser dig - fin fortid, fremtid og det du står i lige nu. \n\n\nDu er velkommen til at medbringe dine spørgsmål, så du kan få svar på det, du tumler med lige nu. Så du kan gå trygt ud i livet igen med mere klarhed. \n\n\nKonsultationer tilbydes i rolige omgivelser ved personligt fremmøde i København Sv. eller online via messenger, hvis du befinder dig længere væk.",
     duration: "45 min",
     price: "499 kr.",
     icon: "✦",
@@ -94,7 +94,7 @@ const Services = () => {
               <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                 {s.title}
               </h3>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6">
+              <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
                 {s.desc}
               </p>
               <div className="flex items-center justify-between pt-4 border-t border-border">
