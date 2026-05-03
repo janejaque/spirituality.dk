@@ -38,7 +38,7 @@ Jeg har altid været drevet af at forstå de menneskelige relationer. Derfor har
           </p>
 
           <p className="mt-6">
-            Jeg afslutter min uddannelse som clairvoyant i maj 2026. Herefter stiger prisen for en konsultation.
+            Jeg afslutter min uddannelse som clairvoyant i maj 2026.
           </p>
         </div>
       </div>
