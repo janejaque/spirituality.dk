@@ -1,15 +1,15 @@
 const whyItems = [
   {
     title: "Personlig opmærksomhed",
-    text: "I trygge omgivelser giver jeg dig råd og redskaber. Konsultationen kan foregå i Københavns Sydhavn i mit lille rolige klienthjørne. Her kan du sætte dig godt tilrette og sammen sætter vi fokus på det, du har på hjerte. ",
+    text: "I mit lille, rolige klienthjørne i Københavns Sydhavn kan du sætte dig godt til rette. Sammen sætter vi fokus på det, du har på hjerte.",
   },
   {
     title: "Tillid i et fortroligt rum",
-    text: "I trygge omgivelser giver jeg dig råd og redskaber. Konsultationen kan foregå i København Sv. ved fysisk fremmøde eller online.",
+    text: "Konsultationen kan foregå ved fysisk fremmøde i København Sv. eller online – altid i trygge rammer, hvor du får råd og redskaber med videre.",
   },
   {
     title: "Etik under clairvoyancen",
-    text: "Jeg forudser ikke død eller sygdom. Fokus er på konstruktive budskaber. Jeg har tavshedspligt og jeg værner om fortroligheden i samtalen.",
+    text: "Jeg forudser ikke død eller sygdom – fokus er på konstruktive budskaber. Jeg har tavshedspligt og værner om fortroligheden i samtalen.",
   },
 ];
 
@@ -36,16 +36,16 @@ const WhyMe = () => {
             />
             <div className="font-body text-muted-foreground leading-relaxed text-center md:text-left space-y-4">
               <p>
-                Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring i at arbejde med menneskelige relationer. Min tilgang til den spirituelle verden er lavpraktisk og jordnær. Jeg tror på, man skal nyde og leve et godt liv.
+                Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring med menneskelige relationer. Min tilgang til den spirituelle verden er lavpraktisk og jordnær – jeg tror på, at man skal nyde og leve et godt liv.
               </p>
               <p>
-                Et godt liv hænger sammen med din sjæls behov. Det er dine indre behov, der giver din hverdag mening. Det indbefatter at arbejde med sig selv og sine relationer med henblik på at se på gamle handlemønstre, for at skabe plads til den dit autentiske selv.
+                Et godt liv hænger sammen med din sjæls behov. Det er de indre behov, der giver din hverdag mening. Det handler om at arbejde med sig selv og sine relationer, kigge på gamle handlemønstre og skabe plads til dit autentiske selv.
               </p>
               <p>
-                Mine klienter kommer fra hele Sjælland og øerne. De er fra ca.18 år og opefter. Det er hovedsageligt kvinder, men alle er velkomne. De søger vejledning og retning på livets store temaer.
+                Mine klienter kommer fra hele Sjælland og øerne. De er fra ca. 18 år og opefter – hovedsageligt kvinder, men alle er velkomne. De søger vejledning og retning på livets store temaer.
               </p>
               <p>
-                De kører gerne langt for et personligt møde hvor nærvær, ro og dialog er i fokus. Det er `dig tid` med fokus på dit indre liv.
+                De kører gerne langt for et personligt møde, hvor nærvær, ro og dialog er i fokus. Det er ‘dig-tid’ med fokus på dit indre liv.
               </p>
               <p className="text-center">
                 Hvornår giver du dig tid til at lytte til dine egne behov?
