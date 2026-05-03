@@ -15,7 +15,7 @@
     --popover: 36 34% 95%;
     --popover-foreground: 220 30% 18%;
 
-    --primary: 145 35% 20%;
+    --primary: 215 38% 26%;
     --primary-foreground: 40 30% 96%;
 
     --secondary: 35 42% 86%;
@@ -41,8 +41,8 @@
     --gold-dark: 35 65% 40%;
     --cream: 36 38% 92%;
     --cream-dark: 34 28% 84%;
-    --navy: 145 35% 20%;
-    --navy-light: 145 25% 32%;
+    --navy: 215 38% 26%;
+    --navy-light: 210 30% 40%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -78,7 +78,7 @@
   }
 
   .bg-gradient-mystical {
-    background: linear-gradient(180deg, hsl(150 40% 8%) 0%, hsl(148 38% 14%) 40%, hsl(145 32% 20%) 70%, hsl(142 26% 26%) 100%);
+    background: linear-gradient(180deg, hsl(218 40% 12%) 0%, hsl(216 36% 20%) 40%, hsl(212 32% 26%) 70%, hsl(208 28% 32%) 100%);
   }
 
   .bg-gradient-warm {
