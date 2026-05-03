@@ -50,6 +50,14 @@ const WhyMe = () => {
               <p className="text-center">
                 Hvornår giver du dig tid til at lytte til dine egne behov?
               </p>
+              <div className="pt-4 mt-2 border-t border-accent/20 max-w-md mx-auto md:mx-0">
+                <p className="font-heading text-sm md:text-base italic text-accent mb-1 text-center md:text-left">
+                  Why choose me
+                </p>
+                <p className="font-body text-xs md:text-sm text-muted-foreground/90 leading-relaxed text-center md:text-left">
+                  With more than 30 years of experience and strong clairvoyant abilities, I offer a grounded, down-to-earth approach in a calm and confidential space — in person in Copenhagen or online.
+                </p>
+              </div>
             </div>
           </div>
         </div>
