@@ -27,9 +27,17 @@ const Hero = () => {
           <p className="font-heading text-2xl text-gold-light italic mb-6 animate-fade-up opacity-0 md:text-6xl" style={{ animationDelay: "0.2s" }}>
             Jeg ser dig
           </p>
-          <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-10 animate-fade-up opacity-0 leading-relaxed whitespace-pre-line" style={{ animationDelay: "0.4s" }}>
+          <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-8 animate-fade-up opacity-0 leading-relaxed whitespace-pre-line" style={{ animationDelay: "0.4s" }}>
             Står du et sted i dit liv, hvor du mangler vejledning og afklaring for at komme videre? I livets store temaer som bl.a. kærlighed, parforhold, børn, arbejde, uddannelse og din spiritualitet kan jeg hjælpe dig på vej.{"\n\n\n"}Med omsorgsfuld clairvoyant vejledning giver jeg dig redskaber til at komme trygt videre i dit liv.
           </p>
+          <div className="max-w-md mx-auto mb-10 animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
+            <p className="font-heading text-sm md:text-base italic text-gold-light/90 mb-1">
+              Clairvoyant guidance
+            </p>
+            <p className="font-body text-primary-foreground/70 text-xs md:text-sm leading-relaxed">
+              Seeking clarity and direction in love, relationships, family, work or your spiritual path? I offer caring clairvoyant guidance to help you move forward with confidence.
+            </p>
+          </div>
         </div>
 
         {/* Logo + Button combined element */}
