@@ -26,15 +26,15 @@ const About = () => {
           </div>
 
           <p className="mb-6 whitespace-pre-line">
-            Jeg har passeret de 50 år og har opbygget årtiers erfaring i at vejlede, støtte og rådgive børn, unge samt deres forældre. I mit arbejdsliv har jeg været pædagog, rådgiver, leder og jeg har arbejdet med forskning.
+            Jeg har passeret de 50 år og har opbygget årtiers erfaring med at vejlede, støtte og rådgive børn, unge og deres forældre. I mit arbejdsliv har jeg været pædagog, rådgiver og leder, og jeg har arbejdet med forskning.
 
-Jeg har altid været drevet af at forstå de menneskelige relationer. Derfor har jeg bevæget mig både i praksis, i den akademisk analytiske verden og nu også den clairvoyante og intuitive verden. 
+Jeg har altid været drevet af at forstå de menneskelige relationer. Derfor har jeg bevæget mig både i praksis, i den akademisk-analytiske verden og nu også i den clairvoyante og intuitive verden.
           </p>
           <p className="mb-6">
-            Jeg har et kritisk analytisk blik qua min akademiske uddannelse. Mine clairvoyante evner har jeg altid haft. Oprindeligt troede jeg, at jeg bare var i stand til at se det unikke i hvert menneske pga. min lange erfaring i at arbejde med mennesker. Nu kan jeg skelne mellem erfaring, viden og mine clairvoyante evner.
+            Mine clairvoyante evner har jeg altid haft, og min akademiske uddannelse har givet mig et kritisk analytisk blik. Oprindeligt troede jeg, at min evne til at se det unikke i hvert menneske udelukkende kom fra mange års erfaring med mennesker. I dag kan jeg skelne mellem erfaring, viden og mine clairvoyante evner.
           </p>
           <p className="mb-8">
-            Jeg møder dig med åbenhed, ærlighed og omsorg. Efter en konsultation er det vigtigt for mig, at du går ud af døren med håb for fremtiden og gode lavpraktiske redskaber.
+            Jeg møder dig med åbenhed, ærlighed og omsorg. Efter en konsultation er det vigtigt for mig, at du går ud af døren med håb for fremtiden og gode, lavpraktiske redskaber i hånden.
           </p>
 
           <p className="mt-6">
