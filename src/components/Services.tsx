@@ -2,7 +2,7 @@ import konsultationRum from "@/assets/konsultation-rum.jpeg";
 
 const services = [
   {
-    title: "Clairvoyantvejledning",
+    title: "Clairvoyant vejledning",
     desc: "Jeg tilbyder clairvoyant vejledning. Jeg ser dig – din fortid, din fremtid og det, du står i lige nu.\n\n\nDu er velkommen til at medbringe dine spørgsmål, så du kan få svar på det, du tumler med, og gå trygt videre med mere klarhed.\n\n\nKonsultationer foregår i rolige omgivelser ved personligt fremmøde i København Sv. eller online via Messenger, hvis du befinder dig længere væk.",
     duration: "45 min",
     price: "499 kr.",
