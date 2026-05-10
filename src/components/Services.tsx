@@ -38,11 +38,11 @@ const Services = () => {
           <div className="w-16 h-0.5 bg-accent mx-auto" />
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {services.map((s) => (
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {services.map((s, i) => (
             <div
               key={s.title}
-              className="group bg-card rounded-xl p-8 border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1"
+              className={`group bg-card rounded-xl p-8 border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1 ${i === 2 ? "md:col-span-2" : ""}`}
             >
               <div className="flex items-center justify-between mb-4">
                 <span className="text-3xl text-accent block">{s.icon}</span>
