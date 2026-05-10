@@ -38,7 +38,7 @@ Jeg har altid været drevet af at forstå de menneskelige relationer. Derfor har
           </p>
 
           <p className="mt-6">
-            Jeg afslutter min uddannelse som clairvoyant i maj 2026.
+            Jeg har netop afsluttet min uddannelse som clairvoyant ved Tove Lucka i Center for indre respons i København.
           </p>
         </div>
       </div>
