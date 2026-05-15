@@ -6,41 +6,41 @@
 
 @layer base {
   :root {
-    --background: 24 55% 90%;
+    --background: 24 75% 86%;
     --foreground: 220 30% 18%;
 
-    --card: 28 50% 94%;
+    --card: 28 65% 92%;
     --card-foreground: 220 30% 18%;
 
-    --popover: 28 50% 94%;
+    --popover: 28 65% 92%;
     --popover-foreground: 220 30% 18%;
 
     --primary: 215 38% 26%;
     --primary-foreground: 30 50% 96%;
 
-    --secondary: 22 50% 84%;
+    --secondary: 22 70% 80%;
     --secondary-foreground: 220 30% 18%;
 
-    --muted: 26 35% 88%;
+    --muted: 26 50% 85%;
     --muted-foreground: 220 15% 45%;
 
-    --accent: 38 70% 55%;
+    --accent: 38 80% 52%;
     --accent-foreground: 220 45% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 24 30% 80%;
-    --input: 24 30% 80%;
-    --ring: 38 70% 55%;
+    --border: 24 45% 76%;
+    --input: 24 45% 76%;
+    --ring: 38 80% 52%;
 
     --radius: 0.75rem;
 
-    --gold: 38 70% 55%;
-    --gold-light: 40 60% 75%;
-    --gold-dark: 35 65% 40%;
-    --cream: 24 55% 90%;
-    --cream-dark: 22 40% 82%;
+    --gold: 38 80% 52%;
+    --gold-light: 40 70% 72%;
+    --gold-dark: 35 70% 38%;
+    --cream: 24 75% 86%;
+    --cream-dark: 22 55% 78%;
     --navy: 215 38% 26%;
     --navy-light: 210 30% 40%;
 
@@ -82,11 +82,11 @@
   }
 
   .bg-gradient-warm {
-    background: linear-gradient(180deg, hsl(24 60% 91%) 0%, hsl(80 28% 84%) 100%);
+    background: linear-gradient(180deg, hsl(24 80% 87%) 0%, hsl(85 40% 78%) 100%);
   }
 
   .bg-gradient-rose-warm {
-    background: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(18 55% 85%) 52%, hsl(95 25% 82%) 100%);
+    background: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(16 75% 80%) 52%, hsl(95 38% 76%) 100%);
   }
 
   .shimmer {
