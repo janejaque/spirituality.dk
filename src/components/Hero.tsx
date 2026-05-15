@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="font-heading text-4xl md:text-6xl font-light text-primary-foreground leading-tight mb-4 animate-fade-in opacity-0 lg:text-6xl">
             Clairvoyant i København
           </h1>
-          <p className="font-heading text-2xl text-gold-light italic mb-6 animate-fade-up opacity-0 md:text-6xl" style={{ animationDelay: "0.2s" }}>
+          <p className="font-heading text-xl md:text-3xl text-gold-light italic mb-6 animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
             Find ro og retning
           </p>
           <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-8 animate-fade-up opacity-0 leading-relaxed whitespace-pre-line" style={{ animationDelay: "0.4s" }}>
