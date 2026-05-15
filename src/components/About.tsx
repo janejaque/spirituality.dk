@@ -28,7 +28,7 @@ const About = () => {
           <p className="mb-6 whitespace-pre-line">
             Jeg har passeret de 50 år og har opbygget årtiers erfaring med at vejlede, støtte og rådgive børn, unge og deres forældre. I mit arbejdsliv har jeg været pædagog, rådgiver og leder, og jeg har arbejdet med forskning.
 
-Jeg har altid været drevet af at forstå de menneskelige relationer. Derfor har jeg bevæget mig både i praksis, i den akademisk-analytiske verden og nu også i den clairvoyante og intuitive verden.
+Jeg har altid været drevet af at forstå de menneskelige relationer. Derfor har jeg bevæget mig både i praksis, i den akademiske verden og nu også i den clairvoyante og intuitive verden.
           </p>
           <p className="mb-6">
             Mine clairvoyante evner har jeg altid haft, og min akademiske uddannelse har givet mig et kritisk analytisk blik. Oprindeligt troede jeg, at min evne til at se det unikke i hvert menneske udelukkende kom fra mange års erfaring med mennesker. I dag kan jeg skelne mellem erfaring, viden og mine clairvoyante evner.
