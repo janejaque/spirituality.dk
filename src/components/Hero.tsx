@@ -25,7 +25,7 @@ const Hero = () => {
             Clairvoyant i København
           </h1>
           <p className="font-heading text-2xl text-gold-light italic mb-6 animate-fade-up opacity-0 md:text-6xl" style={{ animationDelay: "0.2s" }}>
-            Jeg ser dig
+            Find ro og retning
           </p>
           <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-8 animate-fade-up opacity-0 leading-relaxed whitespace-pre-line" style={{ animationDelay: "0.4s" }}>
             Står du et sted i dit liv, hvor du mangler vejledning og afklaring for at komme videre? I livets store temaer som bl.a. kærlighed, parforhold, børn, arbejde, uddannelse, spiritualitet kan jeg hjælpe dig på vej.{"\n"}Med omsorgsfuld clairvoyant vejledning giver jeg dig redskaber til at komme trygt videre i dit liv.
