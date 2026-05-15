@@ -5,14 +5,14 @@ const services = [
     title: "Clairvoyant vejledning",
     desc: "Jeg tilbyder clairvoyant vejledning. Jeg ser dig – din fortid, din fremtid og det, du står i lige nu.\n\n\nDu er velkommen til at medbringe dine spørgsmål, så du kan få svar på det, du tumler med, og gå trygt videre med mere klarhed.\n\n\nKonsultationer foregår i rolige omgivelser ved personligt fremmøde i København Sv. eller online via Messenger, hvis du befinder dig længere væk.",
     duration: "45 min",
-    price: "499 kr.",
+    price: "699 kr.",
     icon: "✦",
   },
   {
     title: "Forældre-barn relation",
     desc: "Clairvoyant vejledning med fokus på forældre-barn-relationen og familiens dynamik. Clairvoyancen kombineres med tips og tricks fra mange års erfaring med at vejlede børnefamilier. Med små, simple greb og justeringer kan man opleve store forandringer og en bedre hverdag for hele familien.\n\n\nDu medbringer dit tema eller din udfordring, og vi kigger på det sammen med henblik på at støtte jer bedst muligt.",
     duration: "45 min",
-    price: "499 kr.",
+    price: "699 kr.",
     icon: "❋",
   },
   {
