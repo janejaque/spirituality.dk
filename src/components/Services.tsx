@@ -16,13 +16,34 @@ const services = [
     icon: "❋",
   },
   {
-    title: "Venindeaften / polterabend / foredrag",
-    desc: "Måske ved du ikke, hvordan du skal gribe din spiritualitet an? Det kan være både rart og hyggeligt at blive introduceret til den spirituelle verden sammen med gode veninder.\n\nEt arrangement kan indeholde:\n\n– Orakel-/englekort med eller uden clairvoyant budskab\n\n\n– En kortere clairvoyance for hver deltager (maks. 6 personer)\n\n\n– En guidet meditation eller drømmerejse for dig, der har brug for at finde ind i din ro, med mulighed for et efterfølgende clairvoyant budskab\n\n\n– Et forløb med intuitiv maling/tegning med mulighed for et efterfølgende clairvoyant budskab\n\n\n– Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m.\n\nJeg afholder spirituelle arrangementer og foredrag for mindre grupper i København Sv. Afsæt gerne et par timer.\n\n\nKontakt mig gerne, så vi kan aftale indhold og pris.",
-    duration: "ca. 2 timer, 5-7 personer (inkl. vand og lidt sødt)",
-    price: "ca. 2000 kr.",
+    title: "Orakel- / englekort",
+    desc: "Træk af orakel- eller englekort med eller uden et efterfølgende clairvoyant budskab. En hyggelig og nænsom måde at blive introduceret til den spirituelle verden på – alene eller sammen med veninder.",
     icon: "✺",
   },
+  {
+    title: "Clairvoyance for mindre gruppe veninder",
+    desc: "En kortere clairvoyance for hver deltager i en mindre gruppe (maks. 6 personer). Perfekt til venindeaften eller polterabend, hvor I sammen får et personligt budskab i trygge rammer.",
+    icon: "✦",
+  },
+  {
+    title: "Guidet meditation / drømmerejse",
+    desc: "En guidet meditation eller drømmerejse for dig, der har brug for at finde ind i din ro. Der er mulighed for et efterfølgende clairvoyant budskab.",
+    icon: "❋",
+  },
+  {
+    title: "Intuitiv tegning / maling",
+    desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Der er mulighed for et efterfølgende clairvoyant budskab.",
+    icon: "✧",
+  },
+  {
+    title: "Foredrag om den spirituelle verden",
+    desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. Velegnet til mindre grupper i København Sv.",
+    icon: "✶",
+  },
 ];
+
+const groupNote =
+  "Jeg afholder spirituelle arrangementer og foredrag for mindre grupper i København Sv. Afsæt gerne et par timer. Kontakt mig, så vi sammen kan sammensætte indhold og aftale pris.";
 
 const Services = () => {
   return (
