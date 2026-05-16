@@ -1,15 +1,15 @@
 const whyItems = [
   {
     title: "Personlig opmærksomhed",
-    text: "I mit lille, rolige klienthjørne i Københavns Sydhavn kan du sætte dig godt til rette. Sammen sætter vi fokus på det, du har på hjerte.",
+    text: "I mit lille, rolige klienthjørne i Københavns Sydhavn kan du sætte dig godt til rette. Her får du min fulde opmærksomhed, og sammen sætter vi fokus på det, du har på hjerte.",
   },
   {
     title: "Tillid i et fortroligt rum",
-    text: "Konsultationen kan foregå ved fysisk fremmøde i København Sv. eller online – altid i trygge rammer, hvor du får råd og redskaber med videre.",
+    text: "Konsultationen kan foregå ved personligt fremmøde i København Sv. eller online – altid i trygge rammer, hvor du går herfra med konkrete råd og redskaber, du kan bruge.",
   },
   {
     title: "Etik under clairvoyancen",
-    text: "Jeg forudser ikke død eller sygdom – fokus er på konstruktive budskaber. Jeg har tavshedspligt og værner om fortroligheden i samtalen.",
+    text: "Jeg forudser hverken død eller sygdom – mit fokus er altid på konstruktive og kærlige budskaber. Jeg har tavshedspligt og værner om fortroligheden mellem os.",
   },
 ];
 
