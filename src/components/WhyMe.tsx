@@ -36,19 +36,19 @@ const WhyMe = () => {
             />
             <div className="font-body text-muted-foreground leading-relaxed text-center md:text-left space-y-4">
               <p>
-                Jeg har meget stærke clairvoyante evner og mere end 30 års erfaring med menneskelige relationer. Min tilgang til den spirituelle verden er lavpraktisk og jordnær – jeg tror på, at man skal nyde og leve et godt liv.
+                Jeg har stærke clairvoyante evner og mere end 30 års erfaring med menneskelige relationer. Min tilgang til den spirituelle verden er lavpraktisk og jordnær – for jeg tror på, at spiritualitet skal kunne bruges i en hverdag, der leves og nydes.
               </p>
               <p>
-                Et godt liv hænger sammen med din sjæls behov. Det er de indre behov, der giver din hverdag mening. Det handler om at arbejde med sig selv og sine relationer, kigge på gamle handlemønstre og skabe plads til dit autentiske selv.
+                Et godt liv hænger sammen med din sjæls behov. Det er de indre behov, der giver din hverdag mening. Sammen kigger vi på gamle mønstre og skaber plads til dit autentiske selv – så du kan møde dig selv og dine relationer med mere ro.
               </p>
               <p>
-                Mine klienter kommer fra hele Sjælland og øerne. De er fra ca. 18 år og opefter – hovedsageligt kvinder, men alle er velkomne. De søger vejledning og retning på livets store temaer.
+                Mine klienter kommer fra hele Sjælland og øerne. De er fra ca. 18 år og opefter – hovedsageligt kvinder, men alle er hjerteligt velkomne. De søger klarhed og retning i livets store temaer.
               </p>
               <p>
-                De kører gerne langt for et personligt møde, hvor nærvær, ro og dialog er i fokus. Det er ‘dig-tid’ med fokus på dit indre liv.
+                Mange kører gerne langt for et personligt møde, hvor nærvær, ro og dialog er i centrum. Det er ‘dig-tid’ med fokus på dit indre liv.
               </p>
               <p className="text-center">
-                Hvornår giver du dig tid til at lytte til dine egne behov?
+                Hvornår giver du dig selv tid til at lytte til dine egne behov?
               </p>
               <div className="pt-4 mt-2 border-t border-accent/20 max-w-md mx-auto md:mx-0">
                 <p className="font-heading text-sm md:text-base italic text-accent mb-1 text-center md:text-left">
