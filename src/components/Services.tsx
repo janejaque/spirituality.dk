@@ -60,10 +60,10 @@ const Services = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          {services.map((s, i) => (
+          {services.map((s) => (
             <div
               key={s.title}
-              className={`group bg-card rounded-xl p-8 border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1 ${i === 2 ? "md:col-span-2" : ""}`}
+              className="group bg-card rounded-xl p-8 border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1"
             >
               <div className="flex items-center justify-between mb-4">
                 <span className="text-3xl text-accent block">{s.icon}</span>
@@ -74,21 +74,29 @@ const Services = () => {
               <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
                 {s.desc}
               </p>
-              <div className="flex items-center justify-between pt-4 border-t border-border">
-                {s.duration ? (
-                  <span className="font-body text-xs text-muted-foreground tracking-wide">
-                    {s.duration}
-                  </span>
-                ) : (
-                  <span />
-                )}
-                <span className="font-heading text-lg font-semibold text-accent">
-                  {s.price}
-                </span>
-              </div>
+              {(s.duration || s.price) && (
+                <div className="flex items-center justify-between pt-4 border-t border-border">
+                  {s.duration ? (
+                    <span className="font-body text-xs text-muted-foreground tracking-wide">
+                      {s.duration}
+                    </span>
+                  ) : (
+                    <span />
+                  )}
+                  {s.price && (
+                    <span className="font-heading text-lg font-semibold text-accent">
+                      {s.price}
+                    </span>
+                  )}
+                </div>
+              )}
             </div>
           ))}
         </div>
+
+        <p className="max-w-2xl mx-auto mt-12 text-center font-body text-sm text-muted-foreground leading-relaxed">
+          {groupNote}
+        </p>
 
         <div className="max-w-3xl mx-auto mt-16">
           <div className="overflow-hidden rounded-xl shadow-lg border border-border">
