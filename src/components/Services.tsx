@@ -38,7 +38,7 @@ const services = [
   },
   {
     title: "Intuitiv tegning / maling",
-    desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Der er mulighed for et efterfølgende clairvoyant budskab.",
+    desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Vi går i dybden med det intuitive og giver det indre udtryk via brug af farver. Der er mulighed for et efterfølgende clairvoyant budskab, hvis i ønsker det.",
     duration: "5-7 personer, inkl. lidt sødt",
     price: "1900 kr.",
     icon: "✧",
