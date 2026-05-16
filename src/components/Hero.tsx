@@ -28,7 +28,7 @@ const Hero = () => {
             Find ro og retning
           </p>
           <p className="font-body text-primary-foreground/80 text-base md:text-lg max-w-xl mx-auto mb-8 animate-fade-up opacity-0 leading-relaxed whitespace-pre-line" style={{ animationDelay: "0.4s" }}>
-            Står du et sted i dit liv, hvor du mangler vejledning og afklaring for at komme videre? I livets store temaer som bl.a. kærlighed, parforhold, børn, arbejde, uddannelse, spiritualitet kan jeg hjælpe dig på vej.{"\n"}Med omsorgsfuld clairvoyant vejledning giver jeg dig redskaber til at komme trygt videre i dit liv.
+            Står du et sted i livet, hvor du søger klarhed og en ny retning? Uanset om det handler om kærlighed, parforhold, børn, arbejde, uddannelse eller din spirituelle vej, er du i trygge hænder hos mig.{"\n"}Med nærværende og omsorgsfuld clairvoyant vejledning giver jeg dig konkrete redskaber, så du kan gå trygt og afklaret videre.
           </p>
           <div className="max-w-md mx-auto mb-10 animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
             <p className="font-heading text-sm md:text-base italic text-gold-light/90 mb-1">
