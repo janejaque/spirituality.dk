@@ -35,8 +35,7 @@ const Footer = () => {
             </div>
 
             <p className="font-body text-lg md:text-xl font-medium leading-relaxed text-primary-foreground">
-              Følg med på min <span className="text-gold-light font-semibold">TikTok</span>, hvor du kan få inspiration til et liv med hverdagsnær spiritualitet,
-              giveaways og øvelser der forbinder dig med din egen sjæls behov.
+              Følg med på min <span className="text-gold-light font-semibold">TikTok</span>, hvor jeg deler inspiration til et liv med hverdagsnær spiritualitet, små giveaways og øvelser, der hjælper dig med at lytte til din egen sjæls behov.
             </p>
             <p className="font-body text-lg md:text-xl italic text-gold-light">
               Mange hilsner Jane

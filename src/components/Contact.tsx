@@ -28,7 +28,7 @@ const Contact = () => {
             <p className="font-body text-muted-foreground flex items-center justify-center gap-2 max-w-xl mx-auto">
               <span className="text-accent text-lg" aria-hidden="true">✧</span>
               <span>
-                Har du spørgsmål til en konsultation, eller ønsker du at booke en tid, så skriv til mig her. Jeg vender hurtigt tilbage – Jane.
+                Er du nysgerrig på en konsultation, eller klar til at booke en tid? Skriv til mig her – jeg vender hurtigt tilbage og glæder mig til at høre fra dig. Kærlig hilsen Jane.
               </span>
             </p>
           </div>

@@ -26,11 +26,11 @@ const About = () => {
           </div>
 
           <p className="mb-6 whitespace-pre-line">
-            Jeg har passeret de 50 år og har opbygget årtiers erfaring med at vejlede, støtte og rådgive børn, unge og deres forældre. I mit arbejdsliv har jeg været pædagog, rådgiver og leder, og jeg har arbejdet med forskning. Jeg har altid været drevet af at forstå de menneskelige relationer. Derfor har jeg bevæget mig både i praksis, i den akademiske verden og nu også i den clairvoyante og intuitive verden.
+            Jeg er over 50 år og har gennem mere end tre årtier vejledt, støttet og rådgivet børn, unge og deres forældre. I mit arbejdsliv har jeg været pædagog, rådgiver og leder, og jeg har arbejdet med forskning. Det, der altid har drevet mig, er en dyb nysgerrighed på de menneskelige relationer – og det har ført mig både gennem praksis, den akademiske verden og ind i den clairvoyante og intuitive verden.
 
-Mine clairvoyante evner har jeg altid haft, og min akademiske uddannelse har givet mig et kritisk analytisk blik. Oprindeligt troede jeg, at min udne til at se det unikke i hvert menneske udelukkende kom fra mange års erfaring med mennesker. I dag kan jeg skelne mellem erfaring, viden og mine clairvoyante evner.
+Mine clairvoyante evner har jeg haft hele livet, og min akademiske baggrund har givet mig et kritisk og analytisk blik. Tidligere troede jeg, at min evne til at se det unikke i hvert menneske udelukkende kom fra mange års erfaring. I dag kan jeg klart skelne mellem erfaring, faglig viden og mine clairvoyante evner – og det giver dig en vejledning, der er både jordnær og dyb.
 
-Jeg er uddannet clairvoyant ved Tove Lucka/Kofoed i Center for indre respons.
+Jeg er uddannet clairvoyant ved Tove Lucka Kofoed på Center for Indre Respons.
           </p>
         </div>
       </div>
