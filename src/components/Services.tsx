@@ -24,7 +24,7 @@ const services = [
   },
   {
     title: "Clairvoyance for mindre gruppe veninder",
-    desc: "En kortere clairvoyance for hver deltager i en mindre gruppe (maks. 6 personer). Perfekt til venindeaften eller polterabend, hvor I sammen får et personligt budskab i trygge rammer.",
+    desc: "Find ind til din ro sammen med veninder. En guidet meditation eller drømmerejse for dig, der har brug for at finde ind i din ro. Sæt dig godt tilrette og nyd tid der udelukkende er skabt for at du kan få ro. Drømmerejser er smukke fortællinger, der forbinder dig med dit indre. Der er mulighed for et efterfølgende clairvoyant budskab.",
     duration: "5-7 personer, inkl. lidt sødt",
     price: "1900 kr.",
     icon: "✦",
