@@ -18,26 +18,36 @@ const services = [
   {
     title: "Orakel- / englekort",
     desc: "Træk af orakel- eller englekort med eller uden et efterfølgende clairvoyant budskab. En hyggelig og nænsom måde at blive introduceret til den spirituelle verden på – alene eller sammen med veninder.",
+    duration: "5-7 personer, inkl. lidt sødt",
+    price: "1900 kr.",
     icon: "✺",
   },
   {
     title: "Clairvoyance for mindre gruppe veninder",
     desc: "En kortere clairvoyance for hver deltager i en mindre gruppe (maks. 6 personer). Perfekt til venindeaften eller polterabend, hvor I sammen får et personligt budskab i trygge rammer.",
+    duration: "5-7 personer, inkl. lidt sødt",
+    price: "1900 kr.",
     icon: "✦",
   },
   {
     title: "Guidet meditation / drømmerejse",
     desc: "En guidet meditation eller drømmerejse for dig, der har brug for at finde ind i din ro. Der er mulighed for et efterfølgende clairvoyant budskab.",
+    duration: "5-7 personer, inkl. lidt sødt",
+    price: "1900 kr.",
     icon: "❋",
   },
   {
     title: "Intuitiv tegning / maling",
     desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Der er mulighed for et efterfølgende clairvoyant budskab.",
+    duration: "5-7 personer, inkl. lidt sødt",
+    price: "1900 kr.",
     icon: "✧",
   },
   {
     title: "Foredrag om den spirituelle verden",
     desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. Velegnet til mindre grupper i København Sv.",
+    duration: "5-7 personer, inkl. lidt sødt",
+    price: "1900 kr.",
     icon: "✶",
   },
 ];
