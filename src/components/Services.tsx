@@ -45,7 +45,7 @@ const services = [
   },
   {
     title: "Foredrag om den spirituelle verden",
-    desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. Velegnet til mindre grupper i København Sv.",
+    desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. i den clairvoyante verden. Velegnet til mindre grupper der er nysgerrig på den spirituelle verden og hvordan den fungerer. I får lov til at se, mærke, dufte og spørge ind til det, jeg fortæller om.",
     duration: "5-7 personer, inkl. lidt sødt",
     price: "1900 kr.",
     icon: "✶",
