@@ -16,13 +16,34 @@ const services = [
     icon: "❋",
   },
   {
-    title: "Venindeaften / polterabend / foredrag",
-    desc: "Måske ved du ikke, hvordan du skal gribe din spiritualitet an? Det kan være både rart og hyggeligt at blive introduceret til den spirituelle verden sammen med gode veninder.\n\nEt arrangement kan indeholde:\n\n– Orakel-/englekort med eller uden clairvoyant budskab\n\n\n– En kortere clairvoyance for hver deltager (maks. 6 personer)\n\n\n– En guidet meditation eller drømmerejse for dig, der har brug for at finde ind i din ro, med mulighed for et efterfølgende clairvoyant budskab\n\n\n– Et forløb med intuitiv maling/tegning med mulighed for et efterfølgende clairvoyant budskab\n\n\n– Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m.\n\nJeg afholder spirituelle arrangementer og foredrag for mindre grupper i København Sv. Afsæt gerne et par timer.\n\n\nKontakt mig gerne, så vi kan aftale indhold og pris.",
-    duration: "ca. 2 timer, 5-7 personer (inkl. vand og lidt sødt)",
-    price: "ca. 2000 kr.",
+    title: "Orakel- / englekort",
+    desc: "Træk af orakel- eller englekort med eller uden et efterfølgende clairvoyant budskab. En hyggelig og nænsom måde at blive introduceret til den spirituelle verden på – alene eller sammen med veninder.",
     icon: "✺",
   },
+  {
+    title: "Clairvoyance for mindre gruppe veninder",
+    desc: "En kortere clairvoyance for hver deltager i en mindre gruppe (maks. 6 personer). Perfekt til venindeaften eller polterabend, hvor I sammen får et personligt budskab i trygge rammer.",
+    icon: "✦",
+  },
+  {
+    title: "Guidet meditation / drømmerejse",
+    desc: "En guidet meditation eller drømmerejse for dig, der har brug for at finde ind i din ro. Der er mulighed for et efterfølgende clairvoyant budskab.",
+    icon: "❋",
+  },
+  {
+    title: "Intuitiv tegning / maling",
+    desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Der er mulighed for et efterfølgende clairvoyant budskab.",
+    icon: "✧",
+  },
+  {
+    title: "Foredrag om den spirituelle verden",
+    desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. Velegnet til mindre grupper i København Sv.",
+    icon: "✶",
+  },
 ];
+
+const groupNote =
+  "Jeg afholder spirituelle arrangementer og foredrag for mindre grupper i København Sv. Afsæt gerne et par timer. Kontakt mig, så vi sammen kan sammensætte indhold og aftale pris.";
 
 const Services = () => {
   return (
@@ -39,10 +60,10 @@ const Services = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          {services.map((s, i) => (
+          {services.map((s) => (
             <div
               key={s.title}
-              className={`group bg-card rounded-xl p-8 border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1 ${i === 2 ? "md:col-span-2" : ""}`}
+              className="group bg-card rounded-xl p-8 border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1"
             >
               <div className="flex items-center justify-between mb-4">
                 <span className="text-3xl text-accent block">{s.icon}</span>
@@ -53,21 +74,29 @@ const Services = () => {
               <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
                 {s.desc}
               </p>
-              <div className="flex items-center justify-between pt-4 border-t border-border">
-                {s.duration ? (
-                  <span className="font-body text-xs text-muted-foreground tracking-wide">
-                    {s.duration}
-                  </span>
-                ) : (
-                  <span />
-                )}
-                <span className="font-heading text-lg font-semibold text-accent">
-                  {s.price}
-                </span>
-              </div>
+              {(s.duration || s.price) && (
+                <div className="flex items-center justify-between pt-4 border-t border-border">
+                  {s.duration ? (
+                    <span className="font-body text-xs text-muted-foreground tracking-wide">
+                      {s.duration}
+                    </span>
+                  ) : (
+                    <span />
+                  )}
+                  {s.price && (
+                    <span className="font-heading text-lg font-semibold text-accent">
+                      {s.price}
+                    </span>
+                  )}
+                </div>
+              )}
             </div>
           ))}
         </div>
+
+        <p className="max-w-2xl mx-auto mt-12 text-center font-body text-sm text-muted-foreground leading-relaxed">
+          {groupNote}
+        </p>
 
         <div className="max-w-3xl mx-auto mt-16">
           <div className="overflow-hidden rounded-xl shadow-lg border border-border">
