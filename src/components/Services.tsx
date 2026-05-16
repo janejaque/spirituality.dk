@@ -17,7 +17,7 @@ const services = [
   },
   {
     title: "Orakel- / englekort",
-    desc: "Træk af orakel- eller englekort med eller uden et efterfølgende clairvoyant budskab. En hyggelig og nænsom måde at blive introduceret til den spirituelle verden på – alene eller sammen med veninder.",
+    desc: "I får en introduktion til tarotkort og orakelkort. Jeg præsenterer jer for en lille øvelse, hvor i hver især får mulighed for at trække jeres eget kort englekort. Efterfølgende tilbyder jeg et clairvoyant budskab til hver af jer med afsæt i det kort de kort der er trukket, hvis i ønsker det. En hyggelig og nænsom måde at blive introduceret til den spirituelle verden på – Sammen med veninder.",
     duration: "5-7 personer, inkl. lidt sødt",
     price: "1900 kr.",
     icon: "✺",
