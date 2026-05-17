@@ -55,25 +55,20 @@ const Testimonials = () => {
           <div className="w-16 h-0.5 bg-accent mx-auto" />
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="max-w-3xl mx-auto space-y-12">
           {testimonials.map((t) => (
-            <div
-              key={t.name}
-              className="bg-navy-light/20 backdrop-blur-sm border border-navy-light/30 rounded-xl p-8"
-            >
-              <div className="text-accent text-2xl mb-4">"</div>
-              <p className="font-body text-sm text-primary-foreground/80 leading-relaxed mb-6 italic">
+            <figure key={t.name} className="text-center">
+              <span className="block font-heading text-5xl text-accent leading-none mb-4">
+                “
+              </span>
+              <blockquote className="font-body text-base md:text-lg text-primary-foreground/85 leading-relaxed italic">
                 {t.text}
-              </p>
-              <div>
-                <p className="font-heading text-base font-semibold text-gold-light">
-                  {t.name}
-                </p>
-                <p className="font-body text-xs text-primary-foreground/50">
-                  {t.location}
-                </p>
-              </div>
-            </div>
+              </blockquote>
+              <figcaption className="mt-5 font-body text-xs tracking-[0.18em] uppercase text-gold-light">
+                {t.name}
+                <span className="text-primary-foreground/40"> · {t.location}</span>
+              </figcaption>
+            </figure>
           ))}
         </div>
       </div>
