@@ -18,42 +18,42 @@ const services = [
   {
     title: "Orakel- / englekort",
     desc: "I får en blid introduktion til tarot- og orakelkort. Jeg guider jer gennem en lille øvelse, hvor I hver især trækker jeres eget englekort. Hvis I ønsker det, deler jeg bagefter et clairvoyant budskab til hver af jer med afsæt i de kort, der er trukket. En hyggelig og nænsom måde at lære den spirituelle verden at kende på – sammen med veninder.",
-    duration: "5-7 personer, inkl. lidt sødt",
+    duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✺",
   },
   {
     title: "Clairvoyance for mindre gruppe veninder",
     desc: "En kortere, personlig clairvoyance til hver deltager i en mindre gruppe. Her bliver I hver især set, og I får jeres helt eget clairvoyante budskab med hjem. En tryg og nærværende oplevelse – perfekt til venindeaften eller polterabend, hvor I sammen får noget vigtigt og personligt med jer.",
-    duration: "5-7 personer, inkl. lidt sødt",
+    duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
     price: "1900 kr.",
     icon: "✦",
   },
   {
     title: "Drømmerejse",
     desc: "En guidet drømmerejse for dig, der har brug for at finde ind i din ro. Her er fokus på indre ro, fantasi og din egen spirituelle rejse indadtil. Drømmerejser er smukke fortællinger, der forbinder dig med dit indre. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du ønsker det.",
-    duration: "5-7 personer, inkl. lidt sødt",
+    duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "❋",
   },
   {
     title: "Intuitiv tegning / maling",
     desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Vi går i dybden med det intuitive og giver det indre udtryk gennem farver og former. Der er mulighed for et efterfølgende clairvoyant budskab, hvis I ønsker det.",
-    duration: "5-7 personer, inkl. lidt sødt",
+    duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
     price: "1900 kr.",
     icon: "✧",
   },
   {
     title: "Foredrag om den spirituelle verden",
     desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. i den clairvoyante verden. Velegnet til mindre grupper, der er nysgerrige på den spirituelle verden, og hvordan den fungerer. I får lov til at se, mærke, dufte og stille alle de spørgsmål, der måtte dukke op undervejs.",
-    duration: "5-7 personer, inkl. lidt sødt",
-    price: "1200 kr.",
+    duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
+    price: "1000 kr.",
     icon: "✶",
   },
 ];
 
 const groupNote =
-  "Jeg holder spirituelle arrangementer og foredrag for mindre grupper i København Sv. Afsæt gerne et par timer, så vi får god tid sammen. Skriv til mig, så sammensætter vi indholdet og finder en pris, der passer til jer.";
+  "Jeg holder spirituelle arrangementer og foredrag for mindre grupper i København Sv. Afsæt gerne et par timer, så vi får god tid sammen. Priserne er vejledende – skriv til mig, så aftaler vi indhold og det nærmere, så det passer til jer.";
 
 const Services = () => {
   return (
