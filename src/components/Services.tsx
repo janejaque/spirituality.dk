@@ -24,7 +24,7 @@ const services = [
   },
   {
     title: "Clairvoyance for mindre gruppe veninder",
-    desc: "En kortere, personlig clairvoyance til hver deltager i en mindre gruppe. Her bliver I hver især set, og I får jeres helt eget clairvoyante budskab med hjem. En tryg og nærværende oplevelse – perfekt til venindeaften eller polterabend, hvor I sammen får noget vigtigt og personligt med jer.\n\nDet er en meget ærlig og dybdegående oplevelse, der kan sætte stærke følelser i gang – men du går ikke alene igennem det.",
+    desc: "En kortere, personlig clairvoyance til hver deltager i en mindre gruppe.\n\n\nHer bliver I hver især set, og I får jeres helt eget clairvoyante budskab med hjem.\n\n\nEn tryg og nærværende oplevelse – perfekt til venindeaften eller polterabend, hvor I sammen og hver for sig får noget vigtigt og personligt med jer videre i livet.",
     duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✦",
