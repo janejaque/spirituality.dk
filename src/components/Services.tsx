@@ -26,7 +26,7 @@ const services = [
     title: "Clairvoyance for mindre gruppe veninder",
     desc: "En kortere, personlig clairvoyance til hver deltager i en mindre gruppe. Her bliver I hver især set, og I får jeres helt eget clairvoyante budskab med hjem. En tryg og nærværende oplevelse – perfekt til venindeaften eller polterabend, hvor I sammen får noget vigtigt og personligt med jer.\n\nDet er en meget ærlig og dybdegående oplevelse, der kan sætte stærke følelser i gang – men du går ikke alene igennem det.",
     duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
-    price: "1900 kr.",
+    price: "1200 kr.",
     icon: "✦",
   },
   {
@@ -40,7 +40,7 @@ const services = [
     title: "Intuitiv tegning / maling",
     desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Vi går i dybden med det intuitive og giver det indre udtryk gennem farver og former. Der er mulighed for et efterfølgende clairvoyant budskab, hvis I ønsker det.\n\nHvis du vælger clairvoyance-delen, er den meget ærlig og dybdegående, og den kan sætte stærke følelser i gang.",
     duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
-    price: "1900 kr.",
+    price: "1200 kr.",
     icon: "✧",
   },
   {
