@@ -17,7 +17,7 @@ const services = [
   },
   {
     title: "Orakel- / englekort",
-    desc: "I får en blid introduktion til tarot- og orakelkort. Jeg guider jer gennem en lille øvelse, hvor I hver især trækker jeres eget englekort. Hvis I ønsker det, deler jeg bagefter et clairvoyant budskab til hver af jer med afsæt i de kort, der er trukket. En hyggelig og nænsom måde at lære den spirituelle verden at kende på – sammen med veninder.\n\nClairvoyance-delen er meget ærlig og dybdegående, og den kan sætte stærke følelser i gang.",
+    desc: "I får en blid introduktion til tarot- og orakelkort.\n\n\nJeg guider jer gennem en lille øvelse, hvor I hver især trækker jeres eget englekort. Hvis I ønsker det, deler jeg bagefter et clairvoyant budskab til hver af jer med afsæt i de kort, der er trukket.\n\n\nEn hyggelig og nænsom måde at lære den spirituelle verden at kende på – sammen med veninder.",
     duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✺",
