@@ -31,7 +31,7 @@ const services = [
   },
   {
     title: "Drømmerejse",
-    desc: "En guidet drømmerejse for dig, der har brug for at finde ind i din ro. Her er fokus på indre ro, fantasi og din egen spirituelle rejse indadtil. Drømmerejser er smukke fortællinger, der forbinder dig med dit indre. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du ønsker det.\n\nHvis du vælger clairvoyance-delen, er den meget ærlig og dybdegående, og den kan sætte stærke følelser i gang.",
+    desc: "En guidet drømmerejse for dig og dine veninder, der har brug for at finde ind i din ro. Her er fokus på indre ro, fantasi og din egen spirituelle rejse indadtil. Først guides i ind i en kropsafslapning, så i roligt kan gå ind i jer selv.\n\n\nEn drømmerejse er en smuk fortælling/meditation, der forbinder dig med dit indre. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du/i ønsker det.",
     duration: "Op til 7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "❋",
