@@ -10,7 +10,7 @@ const services = [
   },
   {
     title: "Forældre-barn relation",
-    desc: "En clairvoyant vejledning med særligt fokus på forældre-barn-relationen og familiens dynamik. Clairvoyancen kombineres med tips og erfaringer fra mange års arbejde med børnefamilier. Ofte er det de små, enkle justeringer, der skaber de største forandringer og en lettere hverdag for hele familien.\n\n\nDu medbringer det tema eller den udfordring, der fylder, og vi kigger på det sammen med ét mål: at støtte jer bedst muligt.\n\n\n",
+    desc: "Jeg stiller ind på dig og din relation til dit barn. Jeg kan se dit og dit barns unikke personlighed og derudfra kan jeg give dig helt specifikke redskaber til, at i kan komme omsorgsfuldt videre.\n\n\nEn clairvoyant vejledning med særligt fokus på forældre-barn-relationen og familiens dynamik. Clairvoyancen kombineres med tips og erfaringer fra mange års arbejde med børnefamilier. Ofte er det de små, enkle justeringer, der skaber de største forandringer og en lettere hverdag for hele familien.\n\nDu medbringer det tema eller den udfordring, der fylder, og vi kigger på det sammen med ét mål: at støtte jer bedst muligt.",
     duration: "45 min",
     price: "699 kr.",
     icon: "❋",
