@@ -39,6 +39,11 @@ const testimonials = [
     name: "Kira",
     location: "Ballerup",
   },
+  {
+    text: "Jeg fik anbefalet flere forskellige clairvoyanter, men du virkede som den rigtige, da jeg læste din hjemmeside. Nu ved jeg, jeg valgte rigtigt. Jeg har fået virkelig meget med mig hjem.",
+    name: "Ninna",
+    location: "Odense",
+  },
 ];
 
 const Testimonials = () => {
