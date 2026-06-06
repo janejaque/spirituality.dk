@@ -6,41 +6,41 @@
 
 @layer base {
   :root {
-    --background: 24 75% 86%;
+    --background: 24 60% 93%;
     --foreground: 220 30% 18%;
 
-    --card: 28 65% 92%;
+    --card: 26 55% 95%;
     --card-foreground: 220 30% 18%;
 
-    --popover: 28 65% 92%;
+    --popover: 26 55% 95%;
     --popover-foreground: 220 30% 18%;
 
     --primary: 215 38% 26%;
-    --primary-foreground: 30 50% 96%;
+    --primary-foreground: 28 55% 96%;
 
-    --secondary: 22 70% 80%;
+    --secondary: 22 60% 88%;
     --secondary-foreground: 220 30% 18%;
 
-    --muted: 26 50% 85%;
+    --muted: 24 45% 90%;
     --muted-foreground: 220 15% 45%;
 
-    --accent: 38 80% 52%;
+    --accent: 28 45% 60%;
     --accent-foreground: 220 45% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 24 45% 76%;
-    --input: 24 45% 76%;
-    --ring: 38 80% 52%;
+    --border: 24 40% 84%;
+    --input: 24 40% 84%;
+    --ring: 28 45% 60%;
 
     --radius: 0.75rem;
 
-    --gold: 38 80% 52%;
-    --gold-light: 40 70% 72%;
-    --gold-dark: 35 70% 38%;
-    --cream: 24 75% 86%;
-    --cream-dark: 22 55% 78%;
+    --gold: 32 55% 58%;
+    --gold-light: 30 55% 78%;
+    --gold-dark: 28 45% 42%;
+    --cream: 24 60% 93%;
+    --cream-dark: 22 50% 86%;
     --navy: 215 38% 26%;
     --navy-light: 210 30% 40%;
 
@@ -61,7 +61,13 @@
   }
 
   body {
-    @apply bg-background text-foreground font-body antialiased;
+    @apply text-foreground font-body antialiased;
+    background-color: hsl(var(--background));
+    background-image:
+      radial-gradient(ellipse 70% 50% at 20% 0%, hsl(18 70% 90% / 0.7), transparent 60%),
+      radial-gradient(ellipse 60% 50% at 85% 15%, hsl(28 60% 92% / 0.8), transparent 65%),
+      radial-gradient(ellipse 80% 60% at 50% 100%, hsl(24 55% 91% / 0.7), transparent 70%);
+    background-attachment: fixed;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -82,11 +88,11 @@
   }
 
   .bg-gradient-warm {
-    background: linear-gradient(180deg, hsl(24 80% 87%) 0%, hsl(80 20% 82%) 100%);
+    background: linear-gradient(180deg, hsl(24 65% 94%) 0%, hsl(18 55% 90%) 100%);
   }
 
   .bg-gradient-rose-warm {
-    background: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(16 75% 80%) 52%, hsl(80 18% 82%) 100%);
+    background: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(18 60% 89%) 52%, hsl(26 50% 92%) 100%);
   }
 
   .shimmer {
