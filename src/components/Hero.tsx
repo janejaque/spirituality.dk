@@ -1,5 +1,4 @@
 import heroBg from "@/assets/hero-bg.jpg";
-import janeLogo from "@/assets/spirituality-logo.jpeg.asset.json";
 
 const Hero = () => {
   return (
@@ -37,20 +36,13 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Logo + Button combined element */}
+        {/* CTA Button */}
         <div className="flex justify-center animate-fade-up opacity-0" style={{ animationDelay: "0.6s" }}>
           <a
             href="#kontakt"
-            className="inline-flex items-stretch group rounded-2xl overflow-hidden shadow-lg shadow-accent/20 border-2 border-accent/30 hover:border-accent/50 transition-all duration-300"
+            className="inline-flex items-center font-body text-sm font-medium bg-[hsl(40,60%,85%)] text-primary px-8 py-4 rounded-2xl shadow-lg shadow-accent/20 border-2 border-accent/30 hover:border-accent/50 hover:bg-[hsl(40,55%,75%)] transition-all duration-300 tracking-wide uppercase"
           >
-            <img
-              src={janeLogo.url}
-              alt="spirituality.dk – Jane Jaqué Clairvoyance"
-              className="w-16 h-16 md:w-20 md:h-20 object-contain bg-[hsl(24,60%,93%)]"
-            />
-            <span className="flex items-center font-body text-sm font-medium bg-[hsl(40,60%,85%)] text-primary px-8 group-hover:bg-[hsl(40,55%,75%)] transition-colors duration-300 tracking-wide uppercase">
-              Book en konsultation
-            </span>
+            Book en konsultation
           </a>
         </div>
       </div>
