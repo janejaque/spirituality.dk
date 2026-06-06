@@ -31,11 +31,8 @@ const Hero = () => {
             Står du et sted i livet, hvor du søger klarhed og en ny retning? Uanset om det handler om kærlighed, parforhold, børn, arbejde, uddannelse eller din spirituelle vej, er du i trygge hænder hos mig.{"\n"}Med nærværende og omsorgsfuld clairvoyant vejledning giver jeg dig konkrete redskaber, så du kan gå trygt og afklaret videre.
           </p>
           <div className="max-w-md mx-auto mb-10 animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
-            <p className="font-heading text-sm md:text-base italic text-gold-light/90 mb-1">
-              Clairvoyant guidance
-            </p>
-            <p className="font-body text-primary-foreground/70 text-xs md:text-sm leading-relaxed">
-              Seeking clarity and direction in love, relationships, family, work or your spiritual path? I offer caring clairvoyant guidance to help you move forward with confidence.
+            <p className="font-heading text-sm md:text-base italic text-gold-light/90">
+              Clairvoyant vejledning – klarhed til dig og din vej frem
             </p>
           </div>
         </div>
