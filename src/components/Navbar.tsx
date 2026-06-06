@@ -6,6 +6,7 @@ const navLinks = [
   { label: "Konsultationer", href: "#konsultationer" },
   { label: "Hvorfor vælge mig", href: "#hvorfor-vaelge-mig" },
   { label: "Udtalelser", href: "#udtalelser" },
+  { label: "Nyhedsbrev", href: "#nyhedsbrev" },
   { label: "Kontakt", href: "#kontakt" },
   { label: "SoMe", href: "#some" },
 ];
