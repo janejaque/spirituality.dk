@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/spirituality-logo.jpeg.asset.json";
 
 const navLinks = [
   { label: "Om mig", href: "#om-mig" },
