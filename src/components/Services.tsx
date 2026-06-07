@@ -70,7 +70,30 @@ const Services = () => {
           <div className="w-16 h-0.5 bg-accent mx-auto" />
         </div>
 
+        <div className="max-w-4xl mx-auto mb-6">
+          <div className="group bg-card rounded-xl p-8 md:p-10 border border-accent/30 hover:border-accent/50 transition-all duration-500 hover:shadow-lg hover:-translate-y-1">
+            <div className="flex items-center justify-between mb-4">
+              <span className="text-3xl text-accent block">{featured.icon}</span>
+            </div>
+            <h3 className="font-heading text-2xl md:text-3xl font-semibold text-foreground mb-3">
+              {featured.title}
+            </h3>
+            <p className="font-body text-sm md:text-base text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
+              {featured.desc}
+            </p>
+            <div className="flex items-center justify-between pt-4 border-t border-border">
+              <span className="font-body text-xs text-muted-foreground tracking-wide">
+                {featured.duration}
+              </span>
+              <span className="font-heading text-lg font-semibold text-accent">
+                {featured.price}
+              </span>
+            </div>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+
           {services.map((s) => (
             <div
               key={s.title}
