@@ -1,5 +1,13 @@
 import konsultationRum from "@/assets/konsultation-rum.jpeg";
 
+const featured = {
+  title: "Foredrag om den spirituelle verden",
+  desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. i den clairvoyante verden. Velegnet til mindre grupper, der er nysgerrige på den spirituelle verden, og hvordan den fungerer. I får lov til at se, mærke, dufte og stille alle de spørgsmål, der måtte dukke op undervejs.\n\nDu får mulighed for at komme tættere på din egen spirituelle vej, og undervejs deler jeg tips og tricks til, hvordan du kan invitere mere spiritualitet ind i hverdagen.\n\nDet foregår i hyggelige omgivelser med nærvær og dybdegående samtaler, hvor alle sanser bruges, og hver gæst får en lille gave med sig hjem. Afsæt gerne et par timer til en hyggelig sammenkomst.",
+  duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
+  price: "1000 kr.",
+  icon: "✶",
+};
+
 const services = [
   {
     title: "Clairvoyant vejledning",
@@ -42,13 +50,6 @@ const services = [
     duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✧",
-  },
-  {
-    title: "Foredrag om den spirituelle verden",
-    desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. i den clairvoyante verden. Velegnet til mindre grupper, der er nysgerrige på den spirituelle verden, og hvordan den fungerer. I får lov til at se, mærke, dufte og stille alle de spørgsmål, der måtte dukke op undervejs.\n\nDet foregår i hyggelige omgivelser med nærvær og dybdegående samtaler, hvor alle sanser bruges, og hver gæst får en lille gave med sig hjem. Afsæt gerne et par timer til en hyggelig sammenkomst.",
-    duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
-    price: "1000 kr.",
-    icon: "✶",
   },
 ];
 
