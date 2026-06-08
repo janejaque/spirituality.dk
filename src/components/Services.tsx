@@ -1,4 +1,11 @@
 import konsultationRum from "@/assets/konsultation-rum.jpeg";
+import seminarImg from "@/assets/seminar-spirituel.jpg";
+import clairvoyantImg from "@/assets/clairvoyant-vejledning.jpg";
+import foraeldreBarnImg from "@/assets/foraeldre-barn.jpg";
+import orakelImg from "@/assets/orakel-englekort.jpg";
+import gruppeImg from "@/assets/gruppe-veninder.jpg";
+import drommeImg from "@/assets/drommerejse.jpg";
+import intuitivImg from "@/assets/intuitiv-tegning.jpg";
 
 const featured = {
   title: "Seminar om den spirituelle verden",
@@ -6,6 +13,8 @@ const featured = {
   duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
   price: "1200 kr.",
   icon: "✶",
+  image: seminarImg,
+  imageAlt: "Krystalkugle, tarotkort og levende lys i bløde varme toner",
 };
 
 const services = [
@@ -15,6 +24,8 @@ const services = [
     duration: "45 min",
     price: "899 kr.",
     icon: "✦",
+    image: clairvoyantImg,
+    imageAlt: "Hånd med klar krystal, lavendel og stearinlys i varme cremetoner",
   },
   {
     title: "Forældre-barn relation",
@@ -22,6 +33,8 @@ const services = [
     duration: "45 min",
     price: "899 kr.",
     icon: "❋",
+    image: foraeldreBarnImg,
+    imageAlt: "Rose og hjerteformet sten på blødt cremestof – symbol på forældre-barn relation",
   },
   {
     title: "Orakel- / englekort",
@@ -29,6 +42,8 @@ const services = [
     duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✺",
+    image: orakelImg,
+    imageAlt: "Englekort lagt ud i vifte med fjer og tørrede blomster",
   },
   {
     title: "Clairvoyance for mindre gruppe veninder",
@@ -36,6 +51,8 @@ const services = [
     duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✦",
+    image: gruppeImg,
+    imageAlt: "Hyggeligt bord med tekopper, tørrede blomster og levende lys til venindeaften",
   },
   {
     title: "Drømmerejse",
@@ -43,6 +60,8 @@ const services = [
     duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "❋",
+    image: drommeImg,
+    imageAlt: "Ametystkrystal og stearinlys på blødt cremetæppe – rolig drømmerejse stemning",
   },
   {
     title: "Intuitiv tegning / maling",
@@ -50,6 +69,8 @@ const services = [
     duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✧",
+    image: intuitivImg,
+    imageAlt: "Akvarelpensler, palet og blødt farvet papir i varme jordtoner",
   },
 ];
 
@@ -71,23 +92,35 @@ const Services = () => {
         </div>
 
         <div className="max-w-4xl mx-auto mb-6">
-          <div className="group bg-card rounded-xl p-8 md:p-10 border border-accent/30 hover:border-accent/50 transition-all duration-500 hover:shadow-lg hover:-translate-y-1">
-            <div className="flex items-center justify-between mb-4">
-              <span className="text-3xl text-accent block">{featured.icon}</span>
+          <div className="group bg-card rounded-xl overflow-hidden border border-accent/30 hover:border-accent/50 transition-all duration-500 hover:shadow-lg hover:-translate-y-1">
+            <div className="aspect-[16/9] overflow-hidden">
+              <img
+                src={featured.image}
+                alt={featured.imageAlt}
+                loading="lazy"
+                width={1024}
+                height={576}
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
             </div>
-            <h3 className="font-heading text-2xl md:text-3xl font-semibold text-foreground mb-3">
-              {featured.title}
-            </h3>
-            <p className="font-body text-sm md:text-base text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
-              {featured.desc}
-            </p>
-            <div className="flex items-center justify-between pt-4 border-t border-border">
-              <span className="font-body text-xs text-muted-foreground tracking-wide">
-                {featured.duration}
-              </span>
-              <span className="font-heading text-lg font-semibold text-accent">
-                {featured.price}
-              </span>
+            <div className="p-8 md:p-10">
+              <div className="flex items-center justify-between mb-4">
+                <span className="text-3xl text-accent block">{featured.icon}</span>
+              </div>
+              <h3 className="font-heading text-2xl md:text-3xl font-semibold text-foreground mb-3">
+                {featured.title}
+              </h3>
+              <p className="font-body text-sm md:text-base text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
+                {featured.desc}
+              </p>
+              <div className="flex items-center justify-between pt-4 border-t border-border">
+                <span className="font-body text-xs text-muted-foreground tracking-wide">
+                  {featured.duration}
+                </span>
+                <span className="font-heading text-lg font-semibold text-accent">
+                  {featured.price}
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -97,33 +130,45 @@ const Services = () => {
           {services.map((s) => (
             <div
               key={s.title}
-              className="group bg-card rounded-xl p-8 border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1"
+              className="group bg-card rounded-xl overflow-hidden border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1"
             >
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-3xl text-accent block">{s.icon}</span>
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src={s.image}
+                  alt={s.imageAlt}
+                  loading="lazy"
+                  width={1024}
+                  height={768}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
               </div>
-              <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
-                {s.title}
-              </h3>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
-                {s.desc}
-              </p>
-              {(s.duration || s.price) && (
-                <div className="flex items-center justify-between pt-4 border-t border-border">
-                  {s.duration ? (
-                    <span className="font-body text-xs text-muted-foreground tracking-wide">
-                      {s.duration}
-                    </span>
-                  ) : (
-                    <span />
-                  )}
-                  {s.price && (
-                    <span className="font-heading text-lg font-semibold text-accent">
-                      {s.price}
-                    </span>
-                  )}
+              <div className="p-8">
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-3xl text-accent block">{s.icon}</span>
                 </div>
-              )}
+                <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
+                  {s.title}
+                </h3>
+                <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
+                  {s.desc}
+                </p>
+                {(s.duration || s.price) && (
+                  <div className="flex items-center justify-between pt-4 border-t border-border">
+                    {s.duration ? (
+                      <span className="font-body text-xs text-muted-foreground tracking-wide">
+                        {s.duration}
+                      </span>
+                    ) : (
+                      <span />
+                    )}
+                    {s.price && (
+                      <span className="font-heading text-lg font-semibold text-accent">
+                        {s.price}
+                      </span>
+                    )}
+                  </div>
+                )}
+              </div>
             </div>
           ))}
         </div>
