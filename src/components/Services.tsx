@@ -38,7 +38,7 @@ const services = [
   },
   {
     title: "Orakel- / englekort",
-    desc: "I får en blid introduktion til tarot- og orakelkort.\n\n\nJeg guider jer igennem en lille kropsafslapningsøvelse, hvor I derefter trækker et englekort. Jeg kan også stille clairvoyant ind på hver enkelt af jer, så I får et budskab med jer hjem. Der vil også være mulighed for at stille spørgsmål til det spirituelle, hvis du har brug for det.\n\n\nEn hyggelig og nænsom måde at lære den spirituelle verden at kende på – sammen med veninder.",
+    desc: "I får en blid introduktion til tarot- og orakelkort.\n\n\nJeg inviterer jer til en lille, blid kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Bagefter trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg blidt ind på hver enkelt af jer – så I får et varmt, personligt budskab med jer hjem. Undervejs er der også plads til at stille de spørgsmål, dit hjerte måtte bære på om det spirituelle.\n\n\nEn hyggelig og nænsom måde at lære den spirituelle verden at kende på – sammen med veninder.",
     duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✺",
