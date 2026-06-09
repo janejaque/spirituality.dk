@@ -119,7 +119,7 @@ const Services = () => {
                 </span>
                 <div className="text-right">
                   <p className="font-body text-[10px] text-muted-foreground italic mb-1">
-                    Pris pr. gruppe · Hver deltager får en lille spirituel gave med sig hjem
+                    Hver deltager får en lille spirituel gave med sig hjem
                   </p>
                   <span className="font-heading text-lg font-semibold text-accent">
                     {featured.price}
@@ -169,7 +169,7 @@ const Services = () => {
                     <div className="text-right">
                       {s.title !== "Clairvoyant vejledning" && s.title !== "Forældre-barn relation" && (
                         <p className="font-body text-[10px] text-muted-foreground italic mb-1">
-                          Pris pr. gruppe · Hver deltager får en lille spirituel gave med sig hjem
+                          Hver deltager får en lille spirituel gave med sig hjem
                         </p>
                       )}
                       {s.price && (
