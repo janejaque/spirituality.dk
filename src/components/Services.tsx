@@ -117,9 +117,14 @@ const Services = () => {
                 <span className="font-body text-xs text-muted-foreground tracking-wide">
                   {featured.duration}
                 </span>
-                <span className="font-heading text-lg font-semibold text-accent">
-                  {featured.price}
-                </span>
+                <div className="text-right">
+                  <p className="font-body text-[10px] text-muted-foreground italic mb-1">
+                    Pris pr. gruppe · Hver deltager får en lille spirituel gave med sig hjem
+                  </p>
+                  <span className="font-heading text-lg font-semibold text-accent">
+                    {featured.price}
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -161,11 +166,18 @@ const Services = () => {
                     ) : (
                       <span />
                     )}
-                    {s.price && (
-                      <span className="font-heading text-lg font-semibold text-accent">
-                        {s.price}
-                      </span>
-                    )}
+                    <div className="text-right">
+                      {s.title !== "Clairvoyant vejledning" && s.title !== "Forældre-barn relation" && (
+                        <p className="font-body text-[10px] text-muted-foreground italic mb-1">
+                          Pris pr. gruppe · Hver deltager får en lille spirituel gave med sig hjem
+                        </p>
+                      )}
+                      {s.price && (
+                        <span className="font-heading text-lg font-semibold text-accent">
+                          {s.price}
+                        </span>
+                      )}
+                    </div>
                   </div>
                 )}
               </div>
