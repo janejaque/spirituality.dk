@@ -1,4 +1,4 @@
-import logo from "@/assets/spirituality-logo.jpeg.asset.json";
+import logo from "@/assets/spirituality-logo.jpg";
 
 const Footer = () => {
   return (
