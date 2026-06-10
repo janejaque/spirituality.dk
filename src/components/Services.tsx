@@ -47,13 +47,7 @@ const services = [
   },
   {
     title: "Clairvoyance for veninder",
-    desc: "En blid og nærværende clairvoyance for dig og dine veninder, hvor I hver især bliver set og mødt, præcis der hvor I er.
-
-
-Vi samles i trygge og hyggelige rammer, og I får alle jeres helt egne, personlige budskaber med hjem – små kærlige vink fra universet, der kan lyse jeres vej videre.
-
-
-En varm og samhørig oplevelse, der passer smukt til en venindeaften eller polterabend, hvor I både er sammen og hver for sig får noget helt unikt med jer i hjertet.",
+    desc: "En blid og nærværende clairvoyance for dig og dine veninder, hvor I hver især bliver set og mødt, præcis der hvor I er.\n\n\nVi samles i trygge og hyggelige rammer, og I får alle jeres helt egne, personlige budskaber med hjem – små kærlige vink fra universet, der kan lyse jeres vej videre.\n\n\nEn varm og samhørig oplevelse, der passer smukt til en venindeaften eller polterabend, hvor I både er sammen og hver for sig får noget helt unikt med jer i hjertet.",
     duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✦",
