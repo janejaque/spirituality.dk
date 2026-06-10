@@ -46,8 +46,8 @@ const services = [
     imageAlt: "Englekort lagt ud i vifte med fjer og tørrede blomster",
   },
   {
-    title: "Clairvoyance for mindre gruppe veninder",
-    desc: "En kortere, personlig clairvoyance til hver deltager i en mindre gruppe.\n\n\nHer bliver I hver især set, og I får jeres helt eget clairvoyante budskab med hjem.\n\nEn tryg og nærværende oplevelse – perfekt til venindeaften eller polterabend, hvor I sammen og hver for sig får helt personlige og specifikke beskeder med jer videre i livet.",
+    title: "Clairvoyance for veninder",
+    desc: "En blid og nærværende clairvoyance for dig og dine veninder, hvor I hver især bliver set og mødt, præcis der hvor I er.\n\n\nVi samles i trygge og hyggelige rammer, og I får alle jeres helt egne, personlige budskaber med hjem – små kærlige vink fra universet, der kan lyse jeres vej videre.\n\n\nEn varm og samhørig oplevelse, der passer smukt til en venindeaften eller polterabend, hvor I både er sammen og hver for sig får noget helt unikt med jer i hjertet.",
     duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✦",
