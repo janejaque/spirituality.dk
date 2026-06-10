@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-primary py-16">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center">
-          <img src={logo.url} alt="spirituality.dk – Jane Jaqué" className="w-40 h-40 md:w-48 md:h-48 mb-6 object-contain rounded-2xl" loading="lazy" />
+          <img src={logo} alt="spirituality.dk – Jane Jaqué" className="w-40 h-40 md:w-48 md:h-48 mb-6 object-contain rounded-2xl" loading="lazy" />
           <h3 className="font-heading text-2xl text-primary-foreground mb-6">
             Jane Jaqué
           </h3>
