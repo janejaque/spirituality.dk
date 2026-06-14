@@ -10,7 +10,7 @@ import intuitivImg from "@/assets/intuitiv-tegning.jpg";
 const featured = {
   title: "Seminar om den spirituelle verden",
   desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. i den clairvoyante verden. Velegnet til mindre grupper, der er nysgerrige på den spirituelle verden, og hvordan den fungerer. I får lov til at se, mærke, dufte og stille alle de spørgsmål, der måtte dukke op undervejs.\n\nDu får mulighed for at komme tættere på din egen spirituelle vej, og undervejs deler jeg tips og tricks til, hvordan du kan invitere mere spiritualitet ind i hverdagen.\n\nDet foregår i hyggelige omgivelser med nærvær og dybdegående samtaler, hvor alle sanser bruges, og hver gæst får en lille gave med sig hjem. Afsæt gerne et par timer til en hyggelig sammenkomst.",
-  duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
+  duration: "Drikke og lidt snacks inkluderet",
   price: "1200 kr.",
   icon: "✶",
   image: seminarImg,
@@ -39,7 +39,7 @@ const services = [
   {
     title: "Orakel- / englekort",
     desc: "I får en blid introduktion til tarot- og orakelkort.\n\n\nJeg inviterer jer til en lille, blid kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Bagefter trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg blidt ind på hver enkelt af jer – så I får et varmt, personligt budskab med jer hjem. Undervejs er der også plads til at stille de spørgsmål, dit hjerte måtte bære på om det spirituelle.\n\n\nEn hyggelig og nænsom måde at lære den spirituelle verden at kende på – sammen med veninder.",
-    duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
+    duration: "Drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✺",
     image: orakelImg,
@@ -48,7 +48,7 @@ const services = [
   {
     title: "Clairvoyance for veninder",
     desc: "En blid og nærværende clairvoyance for dig og dine veninder, hvor I hver især bliver set og mødt, præcis der hvor I er.\n\n\nVi samles i trygge og hyggelige rammer, og I får alle jeres helt egne, personlige budskaber med hjem – små kærlige vink fra universet, der kan lyse jeres vej videre.\n\n\nEn varm og samhørig oplevelse, der passer smukt til en venindeaften eller polterabend, hvor I både er sammen og hver for sig får noget helt unikt med jer i hjertet.",
-    duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
+    duration: "Drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✦",
     image: gruppeImg,
@@ -57,7 +57,7 @@ const services = [
   {
     title: "Drømmerejse",
     desc: "En guidet drømmerejse for dig og dine veninder, der har brug for at finde ind i din ro. Her er fokus på indre ro, fantasi og din egen spirituelle rejse indadtil. Først guides i ind i en kropsafslapning, så i roligt kan gå ind i jer selv.\n\n\nEn drømmerejse er en smuk fortælling/meditation, der forbinder dig med dit indre. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du/i ønsker det.",
-    duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
+    duration: "Drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "❋",
     image: drommeImg,
@@ -66,7 +66,7 @@ const services = [
   {
     title: "Intuitiv tegning / maling",
     desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Vi går i dybden med det intuitive og giver det indre udtryk gennem farver og former. Der er mulighed for et efterfølgende clairvoyant budskab, hvis I ønsker det.\n\nHvis du vælger clairvoyance-delen, er den meget ærlig og dybdegående, og den kan sætte stærke følelser i gang.",
-    duration: "Pris for 2-7 personer · drikke og lidt snacks inkluderet",
+    duration: "Drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     icon: "✧",
     image: intuitivImg,
