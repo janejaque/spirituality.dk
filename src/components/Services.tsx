@@ -124,6 +124,9 @@ const Services = () => {
                   <span className="font-heading text-lg font-semibold text-accent">
                     {featured.price}
                   </span>
+                  <p className="font-body text-[10px] text-muted-foreground mt-1">
+                    Prisen er for hele gruppen på 2-7 personer
+                  </p>
                 </div>
               </div>
             </div>
@@ -176,6 +179,11 @@ const Services = () => {
                         <span className="font-heading text-lg font-semibold text-accent">
                           {s.price}
                         </span>
+                      )}
+                      {s.title !== "Clairvoyant vejledning" && s.title !== "Forældre-barn relation" && s.price && (
+                        <p className="font-body text-[10px] text-muted-foreground mt-1">
+                          Prisen er for hele gruppen på 2-7 personer
+                        </p>
                       )}
                     </div>
                   </div>
