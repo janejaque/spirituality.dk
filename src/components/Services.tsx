@@ -186,7 +186,7 @@ const Services = () => {
                       <span />
                     )}
                     <div className="text-right">
-                      {s.title !== "Clairvoyant vejledning" && s.title !== "Forældre-barn relation" && (
+                      {s.group && (
                         <p className="font-body text-[10px] text-muted-foreground italic mb-1">
                           Hver deltager får en lille spirituel gave med sig hjem
                         </p>
@@ -196,7 +196,7 @@ const Services = () => {
                           {s.price}
                         </span>
                       )}
-                      {s.title !== "Clairvoyant vejledning" && s.title !== "Forældre-barn relation" && s.price && (
+                      {s.group && s.price && (
                         <p className="font-body text-[10px] text-muted-foreground mt-1">
                           Prisen er for hele gruppen på 2-7 personer
                         </p>
