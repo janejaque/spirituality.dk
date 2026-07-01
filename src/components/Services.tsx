@@ -9,7 +9,7 @@ import intuitivImg from "@/assets/intuitiv-tegning.jpg";
 
 const featured = {
   title: "Find ind til din egen spiritualitet",
-  desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. i den clairvoyante verden. Velegnet til mindre grupper, der er nysgerrige på den spirituelle verden, og hvordan den fungerer. I får lov til at se, mærke, dufte og stille alle de spørgsmål, der måtte dukke op undervejs.\n\nDu får mulighed for at komme tættere på din egen spirituelle vej, og undervejs deler jeg tips og tricks til, hvordan du kan invitere mere spiritualitet ind i hverdagen.\n\nDet foregår i hyggelige omgivelser med nærvær og dybdegående samtaler, hvor alle sanser bruges, og hver gæst får en lille gave med sig hjem. Afsæt gerne et par timer til en hyggelig sammenkomst.",
+  desc: "En aften i selskab med venner, hvor vi i fællesskab udforsker forskellige sider af spiritualitet. Gennem samtale, nysgerrighed og små øvelser får du mulighed for at mærke, dufte og stille de spørgsmål, dit hjerte måtte bære på.\n\nDu får redskaber til at finde større forståelse for din egen spiritualitet, og vi deler inspiration til, hvordan du kan invitere mere nærvær og spiritualitet ind i din hverdag.\n\nAftenen foregår i trygge og hyggelige rammer, hvor alle sanser bruges, og hver gæst får en lille gave med sig hjem. Afsæt gerne et par timer til en varm sammenkomst.",
   duration: "Drikke og lidt snacks inkluderet",
   price: "1500 kr.",
   icon: "✶",
