@@ -9,7 +9,7 @@ import intuitivImg from "@/assets/intuitiv-tegning.jpg";
 
 const featured = {
   title: "Find ind til din egen spiritualitet",
-  desc: "En aften i selskab med venner, hvor vi i fællesskab udforsker forskellige sider af spiritualitet. Gennem samtale, nysgerrighed og små øvelser får du mulighed for at mærke, dufte og stille de spørgsmål, dit hjerte måtte bære på.\n\nDu får redskaber til at finde større forståelse for din egen spiritualitet, og vi deler inspiration til, hvordan du kan invitere mere nærvær og spiritualitet ind i din hverdag.\n\nAftenen foregår i trygge og hyggelige rammer, hvor alle sanser bruges, og hver gæst får en lille gave med sig hjem. Afsæt gerne et par timer til en varm sammenkomst.",
+  desc: "En aften i selskab med venner, hvor vi i fællesskab udforsker forskellige sider af spiritualitet. Gennem samtale, nysgerrighed og små øvelser får du mulighed for at mærke, dufte, smage og opleve elementer fra den spirituelle verden – blandt andet tarotkort og orakelkort – og stille de spørgsmål, dit hjerte måtte bære på.\n\nDu får redskaber til at finde større forståelse for din egen spiritualitet, og vi deler inspiration til, hvordan du kan invitere mere nærvær og spiritualitet ind i din hverdag.\n\nAftenen foregår i trygge og hyggelige rammer, hvor alle sanser bruges, og hver gæst får en lille gave med sig hjem. Afsæt gerne et par timer til en varm sammenkomst.",
   duration: "Drikke og lidt snacks inkluderet",
   price: "1500 kr.",
   icon: "✶",
