@@ -8,7 +8,7 @@ import drommeImg from "@/assets/drommerejse.jpg";
 import intuitivImg from "@/assets/intuitiv-tegning.jpg";
 
 const featured = {
-  title: "Seminar om den spirituelle verden",
+  title: "Find ind til din egen spiritualitet",
   desc: "Et foredrag om den spirituelle verden, dens historie og symboler – og hvorfor der fx bruges krystalkugler, tarotkort m.m. i den clairvoyante verden. Velegnet til mindre grupper, der er nysgerrige på den spirituelle verden, og hvordan den fungerer. I får lov til at se, mærke, dufte og stille alle de spørgsmål, der måtte dukke op undervejs.\n\nDu får mulighed for at komme tættere på din egen spirituelle vej, og undervejs deler jeg tips og tricks til, hvordan du kan invitere mere spiritualitet ind i hverdagen.\n\nDet foregår i hyggelige omgivelser med nærvær og dybdegående samtaler, hvor alle sanser bruges, og hver gæst får en lille gave med sig hjem. Afsæt gerne et par timer til en hyggelig sammenkomst.",
   duration: "Drikke og lidt snacks inkluderet",
   price: "899 kr.",
