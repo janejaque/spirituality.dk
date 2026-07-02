@@ -4,7 +4,6 @@ import clairvoyantImg from "@/assets/clairvoyant-vejledning.jpg";
 import foraeldreBarnImg from "@/assets/foraeldre-barn.jpg";
 import orakelImg from "@/assets/orakel-englekort.jpg";
 import gruppeImg from "@/assets/gruppe-veninder.jpg";
-import drommeImg from "@/assets/drommerejse.jpg";
 import intuitivImg from "@/assets/intuitiv-tegning.jpg";
 
 const featured = {
@@ -57,16 +56,6 @@ const services = [
     icon: "✦",
     image: gruppeImg,
     imageAlt: "Hyggeligt bord med tekopper, tørrede blomster og levende lys til venindeaften",
-  },
-  {
-    title: "Drømmerejse",
-    desc: "En guidet drømmerejse for dig og dine veninder, der har brug for at finde ind i din ro. Her er fokus på indre ro, fantasi og din egen spirituelle rejse indadtil. Først guides i ind i en kropsafslapning, så i roligt kan gå ind i jer selv.\n\n\nEn drømmerejse er en smuk fortælling/meditation, der forbinder dig med dit indre. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du/i ønsker det.",
-    duration: "Drikke og lidt snacks inkluderet",
-    price: "1200 kr.",
-    group: true,
-    icon: "❋",
-    image: drommeImg,
-    imageAlt: "Ametystkrystal og stearinlys på blødt cremetæppe – rolig drømmerejse stemning",
   },
   {
     title: "Intuitiv tegning / maling",
