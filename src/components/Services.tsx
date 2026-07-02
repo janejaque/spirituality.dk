@@ -4,7 +4,6 @@ import clairvoyantImg from "@/assets/clairvoyant-vejledning.jpg";
 import foraeldreBarnImg from "@/assets/foraeldre-barn.jpg";
 import orakelImg from "@/assets/orakel-englekort.jpg";
 import gruppeImg from "@/assets/gruppe-veninder.jpg";
-import drommeImg from "@/assets/drommerejse.jpg";
 import intuitivImg from "@/assets/intuitiv-tegning.jpg";
 
 const featured = {
