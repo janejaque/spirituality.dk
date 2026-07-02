@@ -4,6 +4,7 @@ import clairvoyantImg from "@/assets/clairvoyant-vejledning.jpg";
 import foraeldreBarnImg from "@/assets/foraeldre-barn.jpg";
 import orakelImg from "@/assets/orakel-englekort.jpg";
 import gruppeImg from "@/assets/gruppe-veninder.jpg";
+import drommeImg from "@/assets/drommerejse.jpg";
 import intuitivImg from "@/assets/intuitiv-tegning.jpg";
 
 const featured = {
@@ -56,6 +57,16 @@ const services = [
     icon: "✦",
     image: gruppeImg,
     imageAlt: "Hyggeligt bord med tekopper, tørrede blomster og levende lys til venindeaften",
+  },
+  {
+    title: "Guidet meditation for begyndere",
+    desc: "En blid og nærværende guidet meditation for dig og dine veninder, der ønsker at finde ind til roen og lære grundteknikkerne i meditation. Vi starter med en let kropsafslapning, så I roligt kan lande i nuet og mærke jer selv.\n\n\nMeditationen er særligt velegnet til begyndere og fokuserer på åndedrættet, indre ro og nærvær. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du/i ønsker det.",
+    duration: "Drikke og lidt snacks inkluderet",
+    price: "1200 kr.",
+    group: true,
+    icon: "❋",
+    image: drommeImg,
+    imageAlt: "Ametystkrystal og stearinlys på blødt cremetæppe – rolig meditationsstemning",
   },
   {
     title: "Intuitiv tegning / maling",
