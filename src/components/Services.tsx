@@ -69,6 +69,7 @@ const services = [
     imageAlt: "Ametystkrystal og stearinlys på blødt cremetæppe – rolig meditationsstemning",
   },
   {
+    title: "Intuitiv tegning / maling",
     desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Vi går i dybden med det intuitive og giver det indre udtryk gennem farver og former. Der er mulighed for et efterfølgende clairvoyant budskab, hvis I ønsker det.\n\nHvis du vælger clairvoyance-delen, er den meget ærlig og dybdegående, og den kan sætte stærke følelser i gang.",
     duration: "Drikke og lidt snacks inkluderet",
     price: "1200 kr.",
