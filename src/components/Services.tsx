@@ -58,16 +58,6 @@ const services = [
     imageAlt: "Hyggeligt bord med tekopper, tørrede blomster og levende lys til venindeaften",
   },
   {
-    title: "Drømmerejse",
-    desc: "En guidet drømmerejse for dig og dine veninder, der har brug for at finde ind i din ro. Her er fokus på indre ro, fantasi og din egen spirituelle rejse indadtil. Først guides i ind i en kropsafslapning, så i roligt kan gå ind i jer selv.\n\n\nEn drømmerejse er en smuk fortælling/meditation, der forbinder dig med dit indre. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du/i ønsker det.",
-    duration: "Drikke og lidt snacks inkluderet",
-    price: "1200 kr.",
-    group: true,
-    icon: "❋",
-    image: drommeImg,
-    imageAlt: "Ametystkrystal og stearinlys på blødt cremetæppe – rolig drømmerejse stemning",
-  },
-  {
     title: "Intuitiv tegning / maling",
     desc: "Et kreativt forløb med intuitiv tegning eller maling, hvor du får lov at udtrykke dig frit. Vi går i dybden med det intuitive og giver det indre udtryk gennem farver og former. Der er mulighed for et efterfølgende clairvoyant budskab, hvis I ønsker det.\n\nHvis du vælger clairvoyance-delen, er den meget ærlig og dybdegående, og den kan sætte stærke følelser i gang.",
     duration: "Drikke og lidt snacks inkluderet",
