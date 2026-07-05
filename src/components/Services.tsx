@@ -39,7 +39,7 @@ const services = [
     imageAlt: "Rose og hjerteformet sten på blødt cremestof – symbol på forældre-barn relation",
   },
   {
-    title: "Orakel- / englekort",
+    title: "Orakel- / englekort med clairvoyant budskab",
     desc: "I får en blid introduktion til tarot- og orakelkort.\n\n\nJeg inviterer jer til en lille, blid kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Bagefter trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg blidt ind på hver enkelt af jer – så I får et varmt, personligt budskab med jer hjem. Undervejs er der også plads til at stille de spørgsmål, dit hjerte måtte bære på om det spirituelle.\n\n\nEn hyggelig og nænsom måde at lære den spirituelle verden at kende på – sammen med veninder.",
     duration: "Drikke og lidt snacks inkluderet",
     price: "1200 kr.",
