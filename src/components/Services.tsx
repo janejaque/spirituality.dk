@@ -40,6 +40,16 @@ const services = [
     imageAlt: "Rose og hjerteformet sten på blødt cremestof – symbol på forældre-barn relation",
   },
   {
+    title: "Tarotkort trækning",
+    desc: "Jeg trækker et enkelt tarotkort for dig og sender et foto af kortet sammen med en blid tolkning af det budskab, der følger med.\n\nJeg kan stille blidt ind på dig lige nu, eller du kan søge svar om noget helt specifikt i dit liv, som du står og mangler klarhed om. Du bestemmer selv, hvad der føles rigtigt for dig.\n\nBesked og foto mailer jeg til dig, så du har det tæt ved hånden og kan vende tilbage, når du har brug for det.\n\nJeg bruger Rider Waite tarotkort fra serien 'Japanese Art Nouveau' – smukke, poetiske kort med dybe symboler, der inviterer til refleksion og indsigt.",
+    duration: "Foto og tolkning sendes pr. mail",
+    price: "149 kr.",
+    group: false,
+    icon: "✶",
+    image: tarotTraekningImg,
+    imageAlt: "Elegant tarotkort med art nouveau detaljer, lavendel og stearinlys i varme toner",
+  },
+  {
     title: "Orakel- / englekort med clairvoyant budskab",
     desc: "I får en blid introduktion til tarot- og orakelkort.\n\n\nJeg inviterer jer til en lille, blid kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Bagefter trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg blidt ind på hver enkelt af jer – så I får et varmt, personligt budskab med jer hjem. Undervejs er der også plads til at stille de spørgsmål, dit hjerte måtte bære på om det spirituelle.\n\n\nEn hyggelig og nænsom måde at lære den spirituelle verden at kende på – sammen med veninder.",
     duration: "Drikke og lidt snacks inkluderet",
