@@ -2,6 +2,7 @@ import konsultationRum from "@/assets/konsultation-rum.jpeg";
 import seminarImg from "@/assets/seminar-spirituel.jpg";
 import clairvoyantImg from "@/assets/clairvoyant-vejledning.jpg";
 import foraeldreBarnImg from "@/assets/foraeldre-barn.jpg";
+import tarotTraekningImg from "@/assets/tarot-traekning.jpg";
 import orakelImg from "@/assets/orakel-englekort.jpg";
 import gruppeImg from "@/assets/gruppe-veninder.jpg";
 import drommeImg from "@/assets/drommerejse.jpg";
@@ -37,6 +38,16 @@ const services = [
     icon: "❋",
     image: foraeldreBarnImg,
     imageAlt: "Rose og hjerteformet sten på blødt cremestof – symbol på forældre-barn relation",
+  },
+  {
+    title: "Tarotkort trækning",
+    desc: "Jeg trækker et enkelt tarotkort for dig og sender et foto af kortet sammen med en blid tolkning af det budskab, der følger med.\n\nJeg kan stille blidt ind på dig lige nu, eller du kan søge svar om noget helt specifikt i dit liv, som du står og mangler klarhed om. Du bestemmer selv, hvad der føles rigtigt for dig.\n\nBesked og foto mailer jeg til dig, så du har det tæt ved hånden og kan vende tilbage, når du har brug for det.\n\nJeg bruger Rider Waite tarotkort fra serien 'Japanese Art Nouveau' – smukke, poetiske kort med dybe symboler, der inviterer til refleksion og indsigt.",
+    duration: "Foto og tolkning sendes pr. mail",
+    price: "149 kr.",
+    group: false,
+    icon: "✶",
+    image: tarotTraekningImg,
+    imageAlt: "Elegant tarotkort med art nouveau detaljer, lavendel og stearinlys i varme toner",
   },
   {
     title: "Orakel- / englekort med clairvoyant budskab",
