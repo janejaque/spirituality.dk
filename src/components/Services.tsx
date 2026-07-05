@@ -2,6 +2,7 @@ import konsultationRum from "@/assets/konsultation-rum.jpeg";
 import seminarImg from "@/assets/seminar-spirituel.jpg";
 import clairvoyantImg from "@/assets/clairvoyant-vejledning.jpg";
 import foraeldreBarnImg from "@/assets/foraeldre-barn.jpg";
+import tarotTraekningImg from "@/assets/tarot-traekning.jpg";
 import orakelImg from "@/assets/orakel-englekort.jpg";
 import gruppeImg from "@/assets/gruppe-veninder.jpg";
 import drommeImg from "@/assets/drommerejse.jpg";
