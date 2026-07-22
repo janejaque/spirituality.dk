@@ -63,6 +63,7 @@ const Hero = () => {
             Book en konsultation
           </a>
         </div>
+      </div>
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float">
