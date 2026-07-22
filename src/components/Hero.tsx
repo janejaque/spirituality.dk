@@ -56,7 +56,13 @@ const Hero = () => {
 
         {/* CTA Button */}
         <div className="flex justify-center animate-fade-up opacity-0" style={{ animationDelay: "0.65s" }}>
-      </div>
+          <a
+            href="#kontakt"
+            className="inline-flex items-center font-body text-sm font-medium bg-[hsl(40,60%,85%)] text-primary px-8 py-4 rounded-2xl shadow-lg shadow-accent/20 border-2 border-accent/30 hover:border-accent/50 hover:bg-[hsl(40,55%,75%)] transition-all duration-300 tracking-wide uppercase"
+          >
+            Book en konsultation
+          </a>
+        </div>
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float">
