@@ -34,10 +34,28 @@ const Hero = () => {
               Clairvoyant vejledning – klarhed til dig og din vej frem
             </p>
           </div>
+
+          {/* Featured testimonial */}
+          <div className="max-w-2xl mx-auto mb-10 animate-fade-up opacity-0" style={{ animationDelay: "0.55s" }}>
+            <div className="bg-background/20 backdrop-blur-sm border border-accent/20 rounded-2xl p-6 md:p-8 shadow-lg shadow-accent/10">
+              <p className="font-body text-xs tracking-[0.2em] uppercase text-gold-light mb-4">
+                Udtalelse juli, 2026
+              </p>
+              <span className="block font-heading text-4xl text-accent leading-none mb-3">
+                “
+              </span>
+              <blockquote className="font-body text-base md:text-lg text-primary-foreground/90 leading-relaxed italic mb-5">
+                Jeg kan varmt anbefale Jane Jaqué. Jeg følte mig mødt med nærvær, ro og stor empati fra første øjeblik. Clairvoyancen gav mig værdifulde perspektiver, og flere ting gav rigtig god mening for mig. Jane skaber et trygt rum, hvor man føler sig set og hørt. Jeg gik derfra med en god følelse og noget at tænke over. Det var en virkelig god oplevelse.
+              </blockquote>
+              <p className="font-body text-xs tracking-[0.18em] uppercase text-gold-light">
+                Louise R. T <span className="text-primary-foreground/40">· Kastrup</span>
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* CTA Button */}
-        <div className="flex justify-center animate-fade-up opacity-0" style={{ animationDelay: "0.6s" }}>
+        <div className="flex justify-center animate-fade-up opacity-0" style={{ animationDelay: "0.65s" }}>
           <a
             href="#kontakt"
             className="inline-flex items-center font-body text-sm font-medium bg-[hsl(40,60%,85%)] text-primary px-8 py-4 rounded-2xl shadow-lg shadow-accent/20 border-2 border-accent/30 hover:border-accent/50 hover:bg-[hsl(40,55%,75%)] transition-all duration-300 tracking-wide uppercase"
