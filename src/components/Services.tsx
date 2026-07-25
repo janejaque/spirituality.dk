@@ -71,10 +71,10 @@ const services = [
   },
   {
     title: "Guidet meditation for begyndere",
-    desc: "En blid og nærværende guidet meditation for dig og dine veninder, der ønsker at finde ind til roen og lære grundteknikkerne i meditation. Vi starter med en let kropsafslapning, så I roligt kan lande i nuet og mærke jer selv.\n\n\nMeditationen er særligt velegnet til begyndere og fokuserer på åndedrættet, indre ro og nærvær. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du/i ønsker det.",
+    desc: "En blid og nærværende guidet meditation for dig og dine veninder, der ønsker at finde ind til roen og lære grundteknikkerne i meditation. Vi starter med en let kropsafslapning, så I roligt kan lande i nuet og mærke jer selv.\n\n\nMeditationen er særligt velegnet til begyndere og fokuserer på åndedrættet, indre ro og nærvær. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du/i ønsker det.\n\n\nDer er også tid til spørgsmål om den spirituelle verden efter meditation og clairvoyance.",
     duration: "Drikke og lidt snacks inkluderet",
-    price: "1200 kr.",
-    group: true,
+    price: "150 kr. pr. person",
+    group: false,
     icon: "❋",
     image: drommeImg,
     imageAlt: "Ametystkrystal og stearinlys på blødt cremetæppe – rolig meditationsstemning",
