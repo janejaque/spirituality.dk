@@ -50,8 +50,8 @@ const services = [
     imageAlt: "Elegant tarotkort med art nouveau detaljer, lavendel og stearinlys i varme toner",
   },
   {
-    title: "Orakel- / englekort med clairvoyant budskab",
-    desc: "I får en blid introduktion til tarot- og orakelkort.\n\n\nJeg inviterer jer til en lille, blid kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Bagefter trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg blidt ind på hver enkelt af jer – så I får et varmt, personligt budskab med jer hjem. Undervejs er der også plads til at stille de spørgsmål, dit hjerte måtte bære på om det spirituelle.\n\n\nEn hyggelig og nænsom måde at lære den spirituelle verden at kende på – sammen med veninder.",
+    title: "Tarot/orakel og englekort - en venindeaften",
+    desc: "En hyggelig venindeaften med fokus på tarot-, orakel- og englekort.\n\n\nI får en blid introduktion til kortene og de måder, de kan bruges på, så I trygt kan lære den spirituelle verden at kende. Bagefter inviterer jeg jer til en lille, blid kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Når I er landet, trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg blidt ind på hver enkelt af jer – så I får et varmt, personligt budskab med jer hjem.\n\n\nDer vil også være tid til, at jeg besvarer spørgsmål om den spirituelle verden.\n\n\nEn nænsom og samhørig måde at dele oplevelsen på – sammen med veninder.",
     duration: "Drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     group: true,
