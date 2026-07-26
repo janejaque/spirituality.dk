@@ -41,7 +41,7 @@ const services = [
   },
   {
     title: "Tarotkort trækning",
-    desc: "Jeg trækker et enkelt tarotkort for dig og sender et foto af kortet sammen med en blid tolkning af det budskab, der følger med.\n\nJeg kan stille blidt ind på dig lige nu, eller du kan søge svar om noget helt specifikt i dit liv, som du står og mangler klarhed om. Du bestemmer selv, hvad der føles rigtigt for dig.\n\nBesked og foto mailer jeg til dig, så du har det tæt ved hånden og kan vende tilbage, når du har brug for det.\n\nJeg bruger Rider Waite tarotkort fra serien 'Japanese Art Nouveau' – smukke, poetiske kort med dybe symboler, der inviterer til refleksion og indsigt.",
+    desc: "Jeg trækker et enkelt tarotkort for dig og sender et foto af kortet sammen med en varm tolkning af det budskab, der følger med.\n\nJeg kan stille ind på dig lige nu, eller du kan søge svar om noget helt specifikt i dit liv, som du står og mangler klarhed om. Du bestemmer selv, hvad der føles rigtigt for dig.\n\nBesked og foto mailer jeg til dig, så du har det tæt ved hånden og kan vende tilbage, når du har brug for det.\n\nJeg bruger Rider Waite tarotkort fra serien 'Japanese Art Nouveau' – smukke, poetiske kort med dybe symboler, der inviterer til refleksion og indsigt.",
     duration: "Foto og tolkning sendes pr. mail",
     price: "149 kr.",
     group: false,
