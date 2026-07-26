@@ -51,7 +51,7 @@ const services = [
   },
   {
     title: "Tarot/orakel og englekort - en venindeaften",
-    desc: "En hyggelig venindeaften med fokus på tarot-, orakel- og englekort.\n\n\nI får en blid introduktion til kortene og de måder, de kan bruges på, så I trygt kan lære den spirituelle verden at kende. Bagefter inviterer jeg jer til en lille, blid kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Når I er landet, trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg blidt ind på hver enkelt af jer – så I får et varmt, personligt budskab med jer hjem.\n\n\nDer vil også være tid til, at jeg besvarer spørgsmål om den spirituelle verden.\n\n\nEn nænsom og samhørig måde at dele oplevelsen på – sammen med veninder.",
+    desc: "En hyggelig venindeaften med fokus på tarot-, orakel- og englekort.\n\n\nI får en introduktion til kortene og de måder, de kan bruges på, så I trygt kan lære den spirituelle verden at kende. Bagefter inviterer jeg jer til en let kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Når I er landet, trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg ind på hver enkelt af jer – så I får et varmt, personligt budskab med jer hjem.\n\n\nDer vil også være tid til, at jeg besvarer spørgsmål om den spirituelle verden.\n\n\nEn nænsom og samhørig måde at dele oplevelsen på – sammen med veninder.",
     duration: "Drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     group: true,
@@ -61,7 +61,7 @@ const services = [
   },
   {
     title: "Clairvoyance for venindegruppe/polterabend",
-    desc: "En blid og nærværende clairvoyance for dig og dine veninder, hvor I hver især bliver set og mødt, præcis der hvor I er.\n\n\nVi samles i trygge og hyggelige rammer, og I får alle jeres helt egne, personlige budskaber med hjem – små kærlige vink fra universet, der kan lyse jeres vej videre.\n\n\nEn varm og samhørig oplevelse, der passer smukt til en venindeaften eller polterabend, hvor I både er sammen og hver for sig får noget helt unikt med jer i hjertet.",
+    desc: "En nærværende og varm clairvoyance for dig og dine veninder, hvor I hver især bliver set og mødt, præcis der hvor I er.\n\n\nVi samles i trygge og hyggelige rammer, og I får alle jeres helt egne, personlige budskaber med hjem – små kærlige vink fra universet, der kan lyse jeres vej videre.\n\n\nEn samhørig oplevelse, der passer smukt til en venindeaften eller polterabend, hvor I både er sammen og hver for sig får noget helt unikt med jer i hjertet.",
     duration: "Drikke og lidt snacks inkluderet",
     price: "1200 kr.",
     group: true,
@@ -71,7 +71,7 @@ const services = [
   },
   {
     title: "Guidet meditation for begyndere",
-    desc: "En blid og nærværende guidet meditation for dig og dine veninder, der ønsker at finde ind til roen og lære grundteknikkerne i meditation. Vi starter med en let kropsafslapning, så I roligt kan lande i nuet og mærke jer selv.\n\n\nMeditationen er særligt velegnet til begyndere og fokuserer på åndedrættet, indre ro og nærvær. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du/i ønsker det.\n\n\nDer er også tid til spørgsmål om den spirituelle verden efter meditation og clairvoyance.\n\n\nDer skal mindst være 2 deltagere og max 7.",
+    desc: "En nærværende guidet meditation for dig og dine veninder, der ønsker at finde ind til roen og lære grundteknikkerne i meditation. Vi starter med en let kropsafslapning, så I roligt kan lande i nuet og mærke jer selv.\n\n\nMeditationen er særligt velegnet til begyndere og fokuserer på åndedrættet, indre ro og nærvær. Bagefter tilbyder jeg gerne et clairvoyant budskab, hvis du/i ønsker det.\n\n\nDer er også tid til spørgsmål om den spirituelle verden efter meditation og clairvoyance.\n\n\nDer skal mindst være 2 deltagere og max 7.",
     duration: "Drikke og lidt snacks inkluderet",
     price: "150 kr. pr. person",
     group: false,
