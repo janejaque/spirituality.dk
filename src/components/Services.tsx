@@ -103,7 +103,7 @@ const Services = () => {
             Jeg tilbyder
           </p>
           <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-4">
-            Konsultationer &amp; Seminar
+            Konsultationer &amp; Events
           </h2>
           <div className="w-16 h-0.5 bg-accent mx-auto" />
         </div>
