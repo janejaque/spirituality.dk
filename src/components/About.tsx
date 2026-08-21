@@ -1,6 +1,5 @@
 import janePortrait1 from "@/assets/jane-portrait1.jpg";
-import janePortrait2Asset from "@/assets/jane-portrait2.jpg.asset.json";
-const janePortrait2 = janePortrait2Asset.url;
+import janePortrait2 from "@/assets/jane-portrait2.jpg";
 
 const About = () => {
   return (
