@@ -7,6 +7,7 @@ import orakelImg from "@/assets/orakel-englekort.jpg";
 import gruppeImg from "@/assets/gruppe-veninder.jpg";
 import drommeImg from "@/assets/drommerejse.jpg";
 import intuitivImg from "@/assets/intuitiv-tegning.jpg";
+import gavekortImg from "@/assets/gavekort.jpg";
 
 const featured = {
   title: "Find ind til din egen spiritualitet",
