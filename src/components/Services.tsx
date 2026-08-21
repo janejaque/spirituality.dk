@@ -61,9 +61,9 @@ const services = [
   },
   {
     title: "Clairvoyance for venindegruppe/polterabend",
-    desc: "En nærværende clairvoyance for dig og dine veninder, hvor I hver især bliver set og mødt, præcis der hvor I er.\n\n\nVi samles i trygge rammer, og I får alle jeres helt egne, personlige budskaber med hjem – små vink fra universet, der kan lyse jeres vej videre.\n\n\nEn oplevelse, der passer smukt til en venindeaften eller polterabend, hvor I både er sammen og hver for sig får noget helt unikt med jer.",
-    duration: "Drikke og lidt snacks inkluderet",
-    price: "1200 kr.",
+    desc: "En nærværende clairvoyance for dig og dine veninder, hvor I hver især bliver set og mødt, præcis der hvor I er.\n\nVi samles i trygge rammer, og I får alle jeres helt egne, personlige budskaber med hjem – små vink fra universet, der kan lyse jeres vej videre.\n\nEventet kan kombineres med et par aktiviteter, hvor du arbejder med din egen spirituelle side, imens du venter på det bliver din tur til en personlig clairvoyance. Hyggeligt, sjovt og med dybde.\n\nEn oplevelse, der passer smukt til en venindeaften eller polterabend, hvor I både er sammen og hver for sig får noget helt unikt med jer.",
+    duration: "Drikke med og uden alkohol samt snacks inkluderet",
+    price: "1500 kr.",
     group: true,
     icon: "✦",
     image: gruppeImg,
