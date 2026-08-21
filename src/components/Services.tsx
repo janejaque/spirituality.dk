@@ -65,6 +65,7 @@ const services = [
     duration: "Drikke med og uden alkohol samt snacks inkluderet",
     price: "1500 kr.",
     group: true,
+    groupSize: "5-10 personer",
     icon: "✦",
     image: gruppeImg,
     imageAlt: "Hyggeligt bord med tekopper, tørrede blomster og levende lys til venindeaften",
