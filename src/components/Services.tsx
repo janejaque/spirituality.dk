@@ -200,7 +200,7 @@ const Services = () => {
                       )}
                       {s.group && s.price && (
                         <p className="font-body text-[10px] text-muted-foreground mt-1">
-                          Prisen er for hele gruppen på 2-7 personer
+                          Prisen er for hele gruppen på {s.groupSize ?? "2-7 personer"}
                         </p>
                       )}
                     </div>
