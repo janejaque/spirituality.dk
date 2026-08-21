@@ -7,6 +7,7 @@ import orakelImg from "@/assets/orakel-englekort.jpg";
 import gruppeImg from "@/assets/gruppe-veninder.jpg";
 import drommeImg from "@/assets/drommerejse.jpg";
 import intuitivImg from "@/assets/intuitiv-tegning.jpg";
+import gavekortImg from "@/assets/gavekort.jpg";
 
 const featured = {
   title: "Find ind til din egen spiritualitet",
@@ -89,6 +90,16 @@ const services = [
     icon: "✧",
     image: intuitivImg,
     imageAlt: "Akvarelpensler, palet og blødt farvet papir i varme jordtoner",
+  },
+  {
+    title: "Gavekort",
+    desc: "Jeg laver gavekort efter aftale – en anderledes gave med dybde og indsigt i livet.\n\nGiv en clairvoyant vejledning, en tarottrækning eller et andet forløb videre til én, du holder af. Det er en gave, der bliver hængende – en oplevelse af at blive set og mødt, med perspektiver der kan lyse vejen videre.\n\nSkriv til mig, så finder vi sammen frem til det, der passer bedst til modtageren.",
+    duration: "Tilpasses efter aftale",
+    price: "Efter aftale",
+    group: false,
+    icon: "❋",
+    image: gavekortImg,
+    imageAlt: "Elegant indpakket gave med lavendel og voksseglet brev i varme beige toner",
   },
 ];
 
