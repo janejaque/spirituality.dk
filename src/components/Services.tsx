@@ -210,6 +210,11 @@ const Services = () => {
                           {s.price}
                         </span>
                       )}
+                      {s.clipCard && (
+                        <p className="font-body text-xs text-muted-foreground mt-1">
+                          {s.clipCard}
+                        </p>
+                      )}
                       {s.group && s.price && (
                         <p className="font-body text-[10px] text-muted-foreground mt-1">
                           Prisen er for hele gruppen på {s.groupSize ?? "2-7 personer"}
