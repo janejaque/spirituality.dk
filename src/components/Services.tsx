@@ -211,7 +211,7 @@ const Services = () => {
                         </span>
                       )}
                       {s.clipCard && (
-                        <p className="font-heading text-xs font-semibold text-accent mt-1">
+                        <p className="font-heading text-sm font-semibold text-accent mt-1">
                           {s.clipCard}
                         </p>
                       )}
