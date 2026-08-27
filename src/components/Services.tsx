@@ -25,7 +25,7 @@ const services = [
     desc: "Hos mig får du en nærværende og ærlig clairvoyant vejledning. Jeg ser dig – din fortid, din nutid og de muligheder, der venter dig. Sammen kigger vi på det, du tumler med lige nu, og du går herfra med konkrete redskaber til selvudvikling, du kan bruge i din hverdag.\n\nDu er meget velkommen til at medbringe dine egne spørgsmål, så du får svar på netop det, der fylder hos dig, og kan gå videre med større klarhed og ro.\n\nDet er en tryg oplevelse, der kan sætte stærke følelser i gang – men du går ikke alene igennem det.\n\nKonsultationen foregår i rolige omgivelser ved personligt fremmøde i København Sv. – eller online via Messenger, hvis du bor længere væk.",
     clipCard: "Klippekort: 3 konsultationer – 2500 kr.",
     duration: "45 minutter eller 20 minutter",
-    price: "1000 kr. / 600 kr.",
+    price: "945 kr. / 600 kr.",
     group: false,
     icon: "✦",
     image: clairvoyantImg,
