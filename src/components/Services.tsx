@@ -19,7 +19,7 @@ const featured = {
   imageAlt: "Krystalkugle, tarotkort og levende lys i bløde varme toner",
 };
 
-const services = [
+const consultations = [
   {
     title: "Clairvoyant vejledning",
     desc: "Hos mig får du en nærværende og ærlig clairvoyant vejledning. Jeg ser dig – din fortid, din nutid og de muligheder, der venter dig. Sammen kigger vi på det, du tumler med lige nu, og du går herfra med konkrete redskaber til selvudvikling, du kan bruge i din hverdag.\n\nDu er meget velkommen til at medbringe dine egne spørgsmål, så du får svar på netop det, der fylder hos dig, og kan gå videre med større klarhed og ro.\n\nDet er en tryg oplevelse, der kan sætte stærke følelser i gang – men du går ikke alene igennem det.\n\nKonsultationen foregår i rolige omgivelser ved personligt fremmøde i København Sv. – eller online via Messenger, hvis du bor længere væk.",
@@ -51,6 +51,19 @@ const services = [
     image: tarotTraekningImg,
     imageAlt: "Elegant tarotkort med art nouveau detaljer, lavendel og stearinlys i varme toner",
   },
+  {
+    title: "Gavekort",
+    desc: "Jeg laver gavekort efter aftale – en anderledes gave med dybde og indsigt i livet.\n\nGiv en clairvoyant vejledning, en tarottrækning eller et andet forløb videre til én, du holder af. Det er en gave, der bliver hængende – en oplevelse af at blive set og mødt, med perspektiver der kan lyse vejen videre.\n\nSkriv til mig, så finder vi sammen frem til det, der passer bedst til modtageren.",
+    duration: "Tilpasses efter aftale",
+    price: "Efter aftale",
+    group: false,
+    icon: "❋",
+    image: gavekortImg,
+    imageAlt: "Elegant indpakket gave med lavendel og voksseglet brev i varme beige toner",
+  },
+];
+
+const events = [
   {
     title: "Tarot/orakel og englekort - en venindeaften",
     desc: "En aften for veninder med fokus på tarot-, orakel- og englekort.\n\n\nI får en introduktion til kortene og de måder, de kan bruges på, så I trygt kan lære den spirituelle verden at kende. Bagefter inviterer jeg jer til en let kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Når I er landet, trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg ind på hver enkelt af jer – så I får et personligt budskab med jer hjem.\n\n\nDer vil også være tid til, at jeg besvarer spørgsmål om den spirituelle verden.\n\n\nEn samhørig måde at dele oplevelsen på – sammen med veninder.",
@@ -92,20 +105,85 @@ const services = [
     image: intuitivImg,
     imageAlt: "Akvarelpensler, palet og blødt farvet papir i varme jordtoner",
   },
-  {
-    title: "Gavekort",
-    desc: "Jeg laver gavekort efter aftale – en anderledes gave med dybde og indsigt i livet.\n\nGiv en clairvoyant vejledning, en tarottrækning eller et andet forløb videre til én, du holder af. Det er en gave, der bliver hængende – en oplevelse af at blive set og mødt, med perspektiver der kan lyse vejen videre.\n\nSkriv til mig, så finder vi sammen frem til det, der passer bedst til modtageren.",
-    duration: "Tilpasses efter aftale",
-    price: "Efter aftale",
-    group: false,
-    icon: "❋",
-    image: gavekortImg,
-    imageAlt: "Elegant indpakket gave med lavendel og voksseglet brev i varme beige toner",
-  },
 ];
 
 const groupNote =
   "Jeg holder arrangementer for mindre grupper i København Sv. Afsæt gerne et par timer, så vi får god tid sammen. Priserne er vejledende – skriv til mig, så aftaler vi indhold og det nærmere, så det passer til jer.";
+
+type Service = {
+  title: string;
+  desc: string;
+  clipCard?: string;
+  duration?: string;
+  price?: string;
+  group: boolean;
+  groupSize?: string;
+  icon: string;
+  image: string;
+  imageAlt: string;
+};
+
+const ServiceCard = ({ s }: { s: Service }) => (
+  <div
+    key={s.title}
+    className="group bg-card rounded-xl overflow-hidden border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1"
+  >
+    <div className="aspect-[4/3] overflow-hidden">
+      <img
+        src={s.image}
+        alt={s.imageAlt}
+        loading="lazy"
+        width={1024}
+        height={768}
+        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+      />
+    </div>
+    <div className="p-8">
+      <div className="flex items-center justify-between mb-4">
+        <span className="text-3xl text-accent block">{s.icon}</span>
+      </div>
+      <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
+        {s.title}
+      </h3>
+      <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
+        {s.desc}
+      </p>
+      {(s.duration || s.price) && (
+        <div className="flex items-center justify-between pt-4 border-t border-border">
+          {s.duration ? (
+            <span className="font-body text-xs text-muted-foreground tracking-wide">
+              {s.duration}
+            </span>
+          ) : (
+            <span />
+          )}
+          <div className="text-right">
+            {s.group && (
+              <p className="font-body text-[10px] text-muted-foreground italic mb-1">
+                Hver deltager får en lille spirituel gave med sig hjem
+              </p>
+            )}
+            {s.price && (
+              <span className="font-heading text-lg font-semibold text-accent">
+                {s.price}
+              </span>
+            )}
+            {s.clipCard && (
+              <p className="font-heading text-sm font-semibold text-accent mt-1">
+                {s.clipCard}
+              </p>
+            )}
+            {s.group && s.price && (
+              <p className="font-body text-[10px] text-muted-foreground mt-1">
+                Prisen er for hele gruppen på {s.groupSize ?? "2-7 personer"}
+              </p>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+);
 
 const Services = () => {
   return (
@@ -116,9 +194,29 @@ const Services = () => {
             Jeg tilbyder
           </p>
           <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-4">
-            Konsultationer &amp; Events
+            Konsultationer & Events
           </h2>
           <div className="w-16 h-0.5 bg-accent mx-auto" />
+        </div>
+
+        <div className="text-center mb-10">
+          <h3 className="font-heading text-2xl md:text-3xl font-light text-foreground">
+            Konsultationer
+          </h3>
+          <div className="w-12 h-0.5 bg-accent mx-auto mt-3" />
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-20">
+          {consultations.map((s) => (
+            <ServiceCard key={s.title} s={s} />
+          ))}
+        </div>
+
+        <div className="text-center mb-10">
+          <h3 className="font-heading text-2xl md:text-3xl font-light text-foreground">
+            Events
+          </h3>
+          <div className="w-12 h-0.5 bg-accent mx-auto mt-3" />
         </div>
 
         <div className="max-w-4xl mx-auto mb-6">
@@ -164,67 +262,8 @@ const Services = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-
-          {services.map((s) => (
-            <div
-              key={s.title}
-              className="group bg-card rounded-xl overflow-hidden border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1"
-            >
-              <div className="aspect-[4/3] overflow-hidden">
-                <img
-                  src={s.image}
-                  alt={s.imageAlt}
-                  loading="lazy"
-                  width={1024}
-                  height={768}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-              </div>
-              <div className="p-8">
-                <div className="flex items-center justify-between mb-4">
-                  <span className="text-3xl text-accent block">{s.icon}</span>
-                </div>
-                <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
-                  {s.title}
-                </h3>
-                <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 whitespace-pre-line">
-                  {s.desc}
-                </p>
-                {(s.duration || s.price) && (
-                  <div className="flex items-center justify-between pt-4 border-t border-border">
-                    {s.duration ? (
-                      <span className="font-body text-xs text-muted-foreground tracking-wide">
-                        {s.duration}
-                      </span>
-                    ) : (
-                      <span />
-                    )}
-                    <div className="text-right">
-                      {s.group && (
-                        <p className="font-body text-[10px] text-muted-foreground italic mb-1">
-                          Hver deltager får en lille spirituel gave med sig hjem
-                        </p>
-                      )}
-                      {s.price && (
-                        <span className="font-heading text-lg font-semibold text-accent">
-                          {s.price}
-                        </span>
-                      )}
-                      {s.clipCard && (
-                        <p className="font-heading text-sm font-semibold text-accent mt-1">
-                          {s.clipCard}
-                        </p>
-                      )}
-                      {s.group && s.price && (
-                        <p className="font-body text-[10px] text-muted-foreground mt-1">
-                          Prisen er for hele gruppen på {s.groupSize ?? "2-7 personer"}
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
+          {events.map((s) => (
+            <ServiceCard key={s.title} s={s} />
           ))}
         </div>
 
