@@ -110,7 +110,20 @@ const events = [
 const groupNote =
   "Jeg holder arrangementer for mindre grupper i København Sv. Afsæt gerne et par timer, så vi får god tid sammen. Priserne er vejledende – skriv til mig, så aftaler vi indhold og det nærmere, så det passer til jer.";
 
-const ServiceCard = ({ s }: { s: (typeof consultations)[number] }) => (
+type Service = {
+  title: string;
+  desc: string;
+  clipCard?: string;
+  duration?: string;
+  price?: string;
+  group: boolean;
+  groupSize?: string;
+  icon: string;
+  image: string;
+  imageAlt: string;
+};
+
+const ServiceCard = ({ s }: { s: Service }) => (
   <div
     key={s.title}
     className="group bg-card rounded-xl overflow-hidden border border-border hover:border-accent/40 transition-all duration-500 hover:shadow-lg hover:-translate-y-1"
