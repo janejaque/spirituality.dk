@@ -8,7 +8,7 @@ const Hero = () => {
         <img
           src={heroBg}
           alt=""
-          className="w-full h-full object-cover brightness-[1.35] contrast-95 saturate-90"
+          className="w-full h-full object-cover brightness-90 contrast-95 saturate-80"
           width={1920}
           height={1080}
         />
