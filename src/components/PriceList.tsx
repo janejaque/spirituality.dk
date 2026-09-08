@@ -15,9 +15,9 @@ const priceRows = [
     price: "2500 kr.",
   },
   {
-    name: "Forældre-barn relation – 45 min",
-    detail: "Clairvoyant vejledning med fokus på familiens dynamik",
-    price: "950 kr.",
+    name: "Clairvoyant vejledning forældre-barn relation – 45 min",
+    detail: "Clairvoyant vejledning med fokus på familiens dynamik · Klippekort: 3 konsultationer – 2500 kr.",
+    price: "945 kr.",
   },
   {
     name: "Tarotkort trækning",
