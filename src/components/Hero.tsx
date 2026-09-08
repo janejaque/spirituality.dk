@@ -19,8 +19,8 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 px-4 max-w-4xl mx-auto w-full pt-20">
         <div className="text-center mb-10">
-          <h1 className="font-heading text-4xl md:text-6xl font-light text-foreground leading-tight mb-4 animate-fade-in opacity-0 lg:text-6xl">
-            Clairvoyant i København
+          <h1 className="font-heading text-3xl md:text-5xl font-light text-foreground leading-tight mb-4 animate-fade-in opacity-0 lg:text-5xl">
+            Clairvoyant vejledning i Københavns Sydhavn
           </h1>
           <p className="font-heading text-xl md:text-3xl text-navy italic mb-6 animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
             Find ro og retning
