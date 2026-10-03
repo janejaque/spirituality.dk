@@ -10,9 +10,14 @@ const priceRows = [
     price: "500 kr.",
   },
   {
-    name: "Klippekort – 3 konsultationer",
+    name: "Klippekort – 3 konsultationer à 45 min.",
     detail: "Spar ved at booke flere clairvoyance konsultationer",
     price: "2500 kr.",
+  },
+  {
+    name: "Klippekort – 3 konsultationer à 20 min.",
+    detail: "Spar ved at booke flere korte clairvoyance konsultationer",
+    price: "1300 kr.",
   },
   {
     name: "Clairvoyant vejledning forældre-barn relation – 45 min",
