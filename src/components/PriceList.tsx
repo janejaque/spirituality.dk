@@ -37,7 +37,7 @@ const priceRows = [
   {
     name: "Tarot/orakel og englekort – venindeaften",
     detail: "Gruppe, 2-7 personer · drikke og snacks inkl.",
-    price: "1200 kr.",
+    price: "1000 kr.",
   },
   {
     name: "Clairvoyance for venindegruppe/polterabend",

@@ -72,7 +72,7 @@ const events = [
     title: "Tarot/orakel og englekort - en venindeaften",
     desc: "En aften for veninder med fokus på tarot-, orakel- og englekort.\n\n\nI får en introduktion til kortene og de måder, de kan bruges på, så I trygt kan lære den spirituelle verden at kende. Bagefter inviterer jeg jer til en let kropsafslapning, hvor I kan lade skuldrene falde og finde jeres indre ro. Når I er landet, trækker I hver især et englekort, og hvis det føles rigtigt, tuner jeg ind på hver enkelt af jer – så I får et personligt budskab med jer hjem.\n\n\nDer vil også være tid til, at jeg besvarer spørgsmål om den spirituelle verden.\n\n\nEn samhørig måde at dele oplevelsen på – sammen med veninder.",
     duration: "Drikke og lidt snacks inkluderet",
-    price: "1200 kr.",
+    price: "1000 kr.",
     group: true,
     icon: "✺",
     image: orakelImg,
