@@ -7,7 +7,7 @@ const priceRows = [
   {
     name: "Clairvoyant vejledning – 20 min",
     detail: "Kortere konsultation, samme nærvær",
-    price: "600 kr.",
+    price: "500 kr.",
   },
   {
     name: "Klippekort – 3 konsultationer",
