@@ -1,7 +1,7 @@
 const priceRows = [
   {
     name: "Clairvoyant vejledning – 45 min",
-    detail: "Personligt fremmøde i København Sv. eller online via Messenger · Klippekort: 3 konsultationer à 45 min. – 2500 kr.",
+    detail: "Personligt fremmøde i København Sv. eller online via Messenger",
     price: "945 kr.",
   },
   {
@@ -21,7 +21,7 @@ const priceRows = [
   },
   {
     name: "Clairvoyant vejledning forældre-barn relation – 45 min",
-    detail: "Clairvoyant vejledning med fokus på familiens dynamik · Klippekort: 3 konsultationer à 45 min. – 2500 kr.",
+    detail: "Clairvoyant vejledning med fokus på familiens dynamik",
     price: "945 kr.",
   },
   {
