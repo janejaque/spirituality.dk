@@ -1,7 +1,7 @@
 const priceRows = [
   {
     name: "Clairvoyant vejledning – 45 min",
-    detail: "Personligt fremmøde i København Sv. eller online via Messenger",
+    detail: "Personligt fremmøde i København Sv. eller online via Messenger · Klippekort: 3 konsultationer à 45 min. – 2500 kr.",
     price: "945 kr.",
   },
   {
