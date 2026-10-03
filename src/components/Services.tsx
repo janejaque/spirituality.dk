@@ -23,7 +23,7 @@ const consultations = [
   {
     title: "Clairvoyant vejledning",
     desc: "Hos mig får du en nærværende og ærlig clairvoyant vejledning. Jeg ser dig – din fortid, din nutid og de muligheder, der venter dig. Sammen kigger vi på det, du tumler med lige nu, og du går herfra med konkrete redskaber til selvudvikling, du kan bruge i din hverdag.\n\nDu er meget velkommen til at medbringe dine egne spørgsmål, så du får svar på netop det, der fylder hos dig, og kan gå videre med større klarhed og ro.\n\nDet er en tryg oplevelse, der kan sætte stærke følelser i gang – men du går ikke alene igennem det.\n\nKonsultationen foregår i rolige omgivelser ved personligt fremmøde i København Sv. – eller online via Messenger, hvis du bor længere væk.",
-    clipCard: "Klippekort: 3 konsultationer – 2500 kr.",
+    clipCard: "Klippekort: 3 konsultationer à 45 min. – 2500 kr.",
     duration: "45 minutter eller 20 minutter",
     price: "945 kr. / 600 kr.",
     group: false,
@@ -34,7 +34,7 @@ const consultations = [
   {
     title: "Clairvoyant vejledning forældre-barn relation",
     desc: "Jeg stiller ind på dig og din relation til dit barn. Jeg kan se dit og dit barns unikke personlighed og derudfra kan jeg give dig helt specifikke redskaber, så I kan komme videre på en støttende måde.\n\n\nEn clairvoyant vejledning med særligt fokus på forældre-barn-relationen og familiens dynamik. Clairvoyancen kombineres med tips og erfaringer fra mange års arbejde med børnefamilier. Ofte er det de små, enkle justeringer, der skaber de største forandringer og en lettere hverdag for hele familien.\n\nBørn gør, hvad de kan med det, de har. Jeg kan se barnets oplevelse af sig selv, og hvordan der kan arbejdes med relationen, så I møder hinanden på en støttende måde.\n\nDu medbringer det tema eller den udfordring, der fylder, og vi kigger på det sammen med ét mål: at støtte jer bedst muligt.",
-    clipCard: "Klippekort: 3 konsultationer – 2500 kr.",
+    clipCard: "Klippekort: 3 konsultationer à 45 min. – 2500 kr.",
     duration: "45 min",
     price: "945 kr.",
     group: false,

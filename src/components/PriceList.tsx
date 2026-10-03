@@ -16,7 +16,7 @@ const priceRows = [
   },
   {
     name: "Clairvoyant vejledning forældre-barn relation – 45 min",
-    detail: "Clairvoyant vejledning med fokus på familiens dynamik · Klippekort: 3 konsultationer – 2500 kr.",
+    detail: "Clairvoyant vejledning med fokus på familiens dynamik · Klippekort: 3 konsultationer à 45 min. – 2500 kr.",
     price: "945 kr.",
   },
   {
