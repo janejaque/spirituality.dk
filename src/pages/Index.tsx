@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import WhyMe from "@/components/WhyMe";
 import Testimonials from "@/components/Testimonials";
 import PriceList from "@/components/PriceList";
+import LedigeTider from "@/components/LedigeTider";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
