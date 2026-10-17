@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Hvorfor vælge mig", href: "#hvorfor-vaelge-mig" },
   { label: "Udtalelser", href: "#udtalelser" },
   { label: "Prisliste", href: "#priser" },
+  { label: "Ledige tider", href: "#ledige-tider" },
   { label: "Kontakt", href: "#kontakt" },
   { label: "SoMe", href: "#some" },
 ];
