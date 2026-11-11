@@ -20,44 +20,14 @@ const LedigeTider = () => {
           <div className="bg-card rounded-2xl border border-accent/30 shadow-sm px-8 py-10">
             <p className="font-heading text-2xl font-light text-foreground mb-6 flex items-center gap-3">
               <span className="text-gold text-xl" aria-hidden="true">☾</span>
-              November 2026
+              December 2026
             </p>
 
             <div className="space-y-6 font-body text-foreground leading-relaxed">
-              <p>
-                Jeg er desværre <span className="font-semibold text-foreground">booket op i uge 43–45</span>,
-                så der er ikke flere ledige tider i den periode.
-              </p>
-              <p>
-                I <span className="font-semibold text-foreground">uge 45–47</span> er der
-                kun <span className="font-semibold text-foreground">få ledige tider</span>,
-                så vær hurtig, hvis du vil i gennem med en konsultation.
-              </p>
-
               <div className="bg-accent/10 border border-accent/30 rounded-xl px-6 py-5">
-                <p className="font-heading text-lg font-semibold text-foreground mb-2">
-                  Ledige tider i november:
+                <p className="font-heading text-lg font-semibold text-foreground">
+                  Der er ledige tider i december.
                 </p>
-                <ul className="space-y-2 font-body text-sm md:text-base text-foreground">
-                  <li className="flex items-start gap-3">
-                    <span className="text-accent mt-0.5" aria-hidden="true">✧</span>
-                    <span>
-                      <span className="font-semibold">Fredag den 13. november</span> – heldagsåbning med ledige tider
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-accent mt-0.5" aria-hidden="true">✧</span>
-                    <span>
-                      <span className="font-semibold">Tirsdag aftener</span> i november
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-accent mt-0.5" aria-hidden="true">✧</span>
-                    <span>
-                      <span className="font-semibold">Onsdage</span> i november
-                    </span>
-                  </li>
-                </ul>
               </div>
 
               <p className="text-muted-foreground text-sm md:text-base">
