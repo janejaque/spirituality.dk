@@ -162,11 +162,6 @@ const ServiceCard = ({ s }: { s: Service }) => (
             <span />
           )}
           <div className="text-right">
-            {s.group && (
-              <p className="font-body text-[10px] text-muted-foreground italic mb-1">
-                Hver deltager får en lille spirituel gave med sig hjem
-              </p>
-            )}
             {s.price && (
               <span className="font-heading text-lg font-semibold text-accent">
                 {s.price}
@@ -256,9 +251,6 @@ const Services = () => {
                   {featured.duration}
                 </span>
                 <div className="text-right">
-                  <p className="font-body text-[10px] text-muted-foreground italic mb-1">
-                    Hver deltager får en lille spirituel gave med sig hjem
-                  </p>
                   <span className="font-heading text-lg font-semibold text-accent">
                     {featured.price}
                   </span>
