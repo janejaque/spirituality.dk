@@ -20,13 +20,14 @@ const LedigeTider = () => {
           <div className="bg-card rounded-2xl border border-accent/30 shadow-sm px-8 py-10">
             <p className="font-heading text-2xl font-light text-foreground mb-6 flex items-center gap-3">
               <span className="text-gold text-xl" aria-hidden="true">☾</span>
-              December 2026
+              December 2026 &amp; januar 2027
             </p>
 
             <div className="space-y-6 font-body text-foreground leading-relaxed">
               <div className="bg-accent/10 border border-accent/30 rounded-xl px-6 py-5">
                 <p className="font-heading text-lg font-semibold text-foreground">
-                  Der er ledige tider i december.
+                  Der er få ledige tider i december, men der er ledige tider i
+                  januar.
                 </p>
               </div>
 
