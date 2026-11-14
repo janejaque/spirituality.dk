@@ -38,7 +38,7 @@ const Hero = () => {
           <div className="max-w-2xl mx-auto mb-10 animate-fade-up opacity-0" style={{ animationDelay: "0.55s" }}>
             <div className="bg-background/70 backdrop-blur-sm border border-accent/20 rounded-2xl p-6 md:p-8 shadow-lg shadow-accent/10">
               <p className="font-body text-xs tracking-[0.2em] uppercase text-gold-dark mb-4">
-                Udtalelse juli, 2026
+                Udtalelse
               </p>
               <span className="block font-heading text-4xl text-accent leading-none mb-3">
                 “
